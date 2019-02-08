@@ -29,7 +29,7 @@ for e in text_xml.iter('OMA'):
         driver_version = i.find('DriverVersion').text
         fw_version = i.find('FirmwareVersion').text
         curr_mac = i.find('CurrentMACAddr').text
-        json_ = {"Name": name, "Description": desc, "Slot": slot, "MTU": mtu, "Vendor": vendor, "DriverVersion": driver_version, "FirmwareVersion": fw_version, "CurrenMAC": curr_mac}
+        json_ = {"Name": name, "Description": desc, "Slot": slot, "MTU": mtu, "Vendor": vendor, "DriverVersion": driver_version, "FirmwareVersion": fw_version, "CurrentMAC": curr_mac}
         json_report['Report'][name] = json_
     for v in e.iter('VirNicObj'):
         name = v.find('IfDescription').text
@@ -39,7 +39,7 @@ for e in text_xml.iter('OMA'):
         vendor = v.find('OSAdapterVendor').text
         driver_version = v.find('DriverVersion').text
         curr_mac = v.find('CurrentMACAddr').text
-        json_ = {"Name": name, "Description": desc, "Slot": slot, "MTU": mtu, "Vendor": vendor, "DriverVersion": driver_version, "FirmwareVersion": "null", "CurrenMAC": curr_mac}
+        json_ = {"Name": name, "Description": desc, "Slot": slot, "MTU": mtu, "Vendor": vendor, "DriverVersion": driver_version, "FirmwareVersion": "null", "CurrentMAC": curr_mac}
         json_report['Report'][name] = json_
 
 print(json.dumps(json_report))
