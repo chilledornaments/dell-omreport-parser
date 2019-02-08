@@ -10,9 +10,21 @@ dell_arg_two = "fans"
 host = "xenserver"
 json_report = {}
 json_report['Host'] = host
-json_report['Category'] = "Memory"
+json_report['Category'] = "Fans"
 json_report['Report'] = {}
 
 text_out = subprocess.check_output([dell_tool, dell_arg, dell_arg_two, '-fmt', 'xml']).decode('utf-8')
 
 text_xml = ET.fromstring(text_out)
+
+for e in text_xml.iter('OMA'):
+    for i in e.iter('Chassis'):
+        for f in i.iter('FanProbeList'):
+            for r in f.iter('FanProbe'):
+                dev_name = r.find('ProbeLocation').text
+                speed = r.find('ProbeReading').text
+                json_ = {"DeviceName": dev_name, "SpeedInRPM": speed}
+                json_report['Report'][dev_name] = json_
+
+
+
