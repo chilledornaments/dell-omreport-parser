@@ -1,0 +1,62 @@
+#!/usr/bin/env python36
+# ./omreport storage pdisk controller=0 -fmt xml
+import xml.etree.ElementTree as ET
+import subprocess, requests, json
+
+dell_tool = "/opt/dell/srvadmin/sbin/omreport"
+dell_strg_arg = "storage"
+dell_pdisk_arg = "pdisk"
+dell_controller_arg = "controller=0"
+
+host = "xenserver"
+
+json_report = {}
+json_report['Host'] = host
+json_report['Category'] = "PhysicalDisks"
+json_report['Report'] = []
+
+pdisk_out = subprocess.check_output([dell_tool, dell_strg_arg, dell_pdisk_arg, dell_controller_arg, '-fmt', 'xml']).decode('utf-8')
+
+pdisk_xml = ET.fromstring(pdisk_out)
+
+for e in pdisk_xml.iter('OMA'):
+    for i in e.iter('ArrayDisks'):
+        for d in i.iter('DCStorageObject'):
+            oid = d.find('ObjID').text
+            serial = d.find('DeviceSerialNumber').text
+            num_partitions = d.find('NumOfPartition').text
+            neg_speed = d.find('NegotiatedSpeed').text
+            capable_speed = d.find('CapableSpeed').text
+            product_id = d.find('ProductID').text
+            # Presumably 4 is OK
+            status = d.find('ObjStatus').text
+            pdisk_json = {"ProductID": product_id, "ObjectID": oid, "Serial": serial, "NumPartitions": num_partitions, "NegotiatedSpeed": neg_speed, "CapableSpeed": capable_speed, "Status": status}
+            json_report['Report'].append({oid: pdisk_json})
+
+
+
+serial = x.find('DeviceSerialNumber').text
+num_partitions = x.find('NumOfPartition').text
+neg_speed = x.find('NegotiatedSpeed').text
+capable_speed = x.find('CapableSpeed').text
+# Presumably 4 is OK
+status = x.find('ObjStatus').text
+
+"""
+for e in pdisk_xml.getiterator('DCStorageObject'):
+    for c in e:
+
+        item_tag = c.tag
+
+ObjID
+ObjState
+ObjStatus
+ControllerNum
+ProductID
+DeviceSerialNumber
+NumOfPartition
+NegotiatedSpeed
+CapableSpeed
+DeviceID
+ArraySize
+"""

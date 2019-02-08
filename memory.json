@@ -1,0 +1,18 @@
+{
+    "Host": "xenserver",
+    "Category": "memory",
+    "Report": [{
+        "DIMM_A1": {
+            "Manufacturer": "Test",
+            "Speed": 1333
+
+        },
+        "DIMM_B1": {
+            "Manufacturer": "Test",
+            "Speed": 1333
+        }
+
+    }]
+
+
+}

@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OMA cli="true">
+   <OMAUserRights>7</OMAUserRights>
+   <MemoryInfo oid="33554433" status="2">
+      <TotalPhysMemorySize unit="KB">4020812</TotalPhysMemorySize>
+      <TotalPhysMemorySizeMB unit="MB">3927</TotalPhysMemorySizeMB>
+      <AvailPhysMemorySize unit="KB">1474852</AvailPhysMemorySize>
+      <AvailPhysMemorySizeMB unit="MB">1440</AvailPhysMemorySizeMB>
+      <TotalPageFileSize unit="KB">1048572</TotalPageFileSize>
+      <AvailPageFileSize unit="KB">1021540</AvailPageFileSize>
+      <TotalVirtualMemorySize unit="KB">0</TotalVirtualMemorySize>
+      <AvailVirtualMemorySize unit="KB">0</AvailVirtualMemorySize>
+   </MemoryInfo>
+   <MemoryArrayList count="1">
+      <MemoryArray oid="83886101" status="4" index="0">
+         <Location>3</Location>
+         <Use>3</Use>
+         <ErrCorrType>6</ErrCorrType>
+         <MaxSize unit="KB">301989888</MaxSize>
+         <MaxSizeMB unit="MB">294912</MaxSizeMB>
+         <extMaxSize unit="MB">0</extMaxSize>
+         <NumSocketsTotal>18</NumSocketsTotal>
+         <NumSocketsInUse>18</NumSocketsInUse>
+         <NRThreshold>32767</NRThreshold>
+         <CThreshold>1296</CThreshold>
+         <NCThreshold>656</NCThreshold>
+         <MemPortConnList count="18">
+            <PortGeneric oid="83886102" status="2" index="0">
+               <ConnectorType>9</ConnectorType>
+               <SecuritySettings>2</SecuritySettings>
+               <SmbiosConnType>255</SmbiosConnType>
+               <ExtName>DIMM_A1</ExtName>
+               <MemoryDevice>
+                  <Size unit="KB">8388608</Size>
+                  <SizeMB unit="MB">8192</SizeMB>
+                  <MemDevType>24</MemDevType>
+                  <TypeDetail>8320</TypeDetail>
+                  <extendedSize unit="MB">0</extendedSize>
+               </MemoryDevice>
+               <IsOccupied>true</IsOccupied>
+            </PortGeneric>
+            <PortGeneric oid="83886104" status="4" index="1">
+               <ConnectorType>9</ConnectorType>
+               <SecuritySettings>2</SecuritySettings>
+               <SmbiosConnType>255</SmbiosConnType>
+               <ExtName>DIMM_A2</ExtName>
+               <MemoryDevice>
+                  <Size unit="KB">8388608</Size>
+                  <SizeMB unit="MB">8192</SizeMB>
+                  <MemDevType>24</MemDevType>
+                  <TypeDetail>8320</TypeDetail>
+                  <extendedSize unit="MB">0</extendedSize>
+               </MemoryDevice>
+               <IsOccupied>true</IsOccupied>
+            </PortGeneric>
+            <PortGeneric oid="83886106" status="2" index="2">
+               <ConnectorType>9</ConnectorType>
+               <SecuritySettings>2</SecuritySettings>
+               <SmbiosConnType>255</SmbiosConnType>
+               <ExtName>DIMM_A3</ExtName>
+               <MemoryDevice>
+                  <Size unit="KB">8388608</Size>
+                  <SizeMB unit="MB">8192</SizeMB>
+                  <MemDevType>24</MemDevType>
+                  <TypeDetail>8320</TypeDetail>
+                  <extendedSize unit="MB">0</extendedSize>
+               </MemoryDevice>
+               <IsOccupied>true</IsOccupied>
+            </PortGeneric>
+            <PortGeneric oid="83886108" status="2" index="3">
+               <ConnectorType>9</ConnectorType>
+               <SecuritySettings>2</SecuritySettings>
+               <SmbiosConnType>255</SmbiosConnType>
+               <ExtName>DIMM_A4</ExtName>
+               <MemoryDevice>
+                  <Size unit="KB">8388608</Size>
+                  <SizeMB unit="MB">8192</SizeMB>
+                  <MemDevType>24</MemDevType>
+                  <TypeDetail>8320</TypeDetail>
+                  <extendedSize unit="MB">0</extendedSize>
+               </MemoryDevice>
+               <IsOccupied>true</IsOccupied>
+            </PortGeneric>
+            <PortGeneric oid="83886110" status="2" index="4">
+               <ConnectorType>9</ConnectorType>
+               <SecuritySettings>2</SecuritySettings>
+               <SmbiosConnType>255</SmbiosConnType>
+               <ExtName>DIMM_A5</ExtName>
+               <MemoryDevice>
+                  <Size unit="KB">8388608</Size>
+                  <SizeMB unit="MB">8192</SizeMB>
+                  <MemDevType>24</MemDevType>
+                  <TypeDetail>8320</TypeDetail>
+                  <extendedSize unit="MB">0</extendedSize>
+               </MemoryDevice>
+               <IsOccupied>true</IsOccupied>
+            </PortGeneric>
+            <PortGeneric oid="83886112" status="2" index="5">
+               <ConnectorType>9</ConnectorType>
+               <SecuritySettings>2</SecuritySettings>
+               <SmbiosConnType>255</SmbiosConnType>
+               <ExtName>DIMM_A6</ExtName>
+               <MemoryDevice>
+                  <Size unit="KB">8388608</Size>
+                  <SizeMB unit="MB">8192</SizeMB>
+                  <MemDevType>24</MemDevType>
+                  <TypeDetail>8320</TypeDetail>
+                  <extendedSize unit="MB">0</extendedSize>
+               </MemoryDevice>
+               <IsOccupied>true</IsOccupied>
+            </PortGeneric>
+            <PortGeneric oid="83886114" status="2" index="6">
+               <ConnectorType>9</ConnectorType>
+               <SecuritySettings>2</SecuritySettings>
+               <SmbiosConnType>255</SmbiosConnType>
+               <ExtName>DIMM_A7</ExtName>
+               <MemoryDevice>
+                  <Size unit="KB">8388608</Size>
+                  <SizeMB unit="MB">8192</SizeMB>
+                  <MemDevType>24</MemDevType>
+                  <TypeDetail>8320</TypeDetail>
+                  <extendedSize unit="MB">0</extendedSize>
+               </MemoryDevice>
+               <IsOccupied>true</IsOccupied>
+            </PortGeneric>
+            <PortGeneric oid="83886116" status="2" index="7">
+               <ConnectorType>9</ConnectorType>
+               <SecuritySettings>2</SecuritySettings>
+               <SmbiosConnType>255</SmbiosConnType>
+               <ExtName>DIMM_A8</ExtName>
+               <MemoryDevice>
+                  <Size unit="KB">8388608</Size>
+                  <SizeMB unit="MB">8192</SizeMB>
+                  <MemDevType>24</MemDevType>
+                  <TypeDetail>8320</TypeDetail>
+                  <extendedSize unit="MB">0</extendedSize>
+               </MemoryDevice>
+               <IsOccupied>true</IsOccupied>
+            </PortGeneric>
+            <PortGeneric oid="83886118" status="2" index="8">
+               <ConnectorType>9</ConnectorType>
+               <SecuritySettings>2</SecuritySettings>
+               <SmbiosConnType>255</SmbiosConnType>
+               <ExtName>DIMM_A9</ExtName>
+               <MemoryDevice>
+                  <Size unit="KB">8388608</Size>
+                  <SizeMB unit="MB">8192</SizeMB>
+                  <MemDevType>24</MemDevType>
+                  <TypeDetail>8320</TypeDetail>
+                  <extendedSize unit="MB">0</extendedSize>
+               </MemoryDevice>
+               <IsOccupied>true</IsOccupied>
+            </PortGeneric>
+            <PortGeneric oid="83886120" status="2" index="9">
+               <ConnectorType>9</ConnectorType>
+               <SecuritySettings>2</SecuritySettings>
+               <SmbiosConnType>255</SmbiosConnType>
+               <ExtName>DIMM_B1</ExtName>
+               <MemoryDevice>
+                  <Size unit="KB">8388608</Size>
+                  <SizeMB unit="MB">8192</SizeMB>
+                  <MemDevType>24</MemDevType>
+                  <TypeDetail>8320</TypeDetail>
+                  <extendedSize unit="MB">0</extendedSize>
+               </MemoryDevice>
+               <IsOccupied>true</IsOccupied>
+            </PortGeneric>
+            <PortGeneric oid="83886122" status="2" index="10">
+               <ConnectorType>9</ConnectorType>
+               <SecuritySettings>2</SecuritySettings>
+               <SmbiosConnType>255</SmbiosConnType>
+               <ExtName>DIMM_B2</ExtName>
+               <MemoryDevice>
+                  <Size unit="KB">8388608</Size>
+                  <SizeMB unit="MB">8192</SizeMB>
+                  <MemDevType>24</MemDevType>
+                  <TypeDetail>8320</TypeDetail>
+                  <extendedSize unit="MB">0</extendedSize>
+               </MemoryDevice>
+               <IsOccupied>true</IsOccupied>
+            </PortGeneric>
+            <PortGeneric oid="83886124" status="2" index="11">
+               <ConnectorType>9</ConnectorType>
+               <SecuritySettings>2</SecuritySettings>
+               <SmbiosConnType>255</SmbiosConnType>
+               <ExtName>DIMM_B3</ExtName>
+               <MemoryDevice>
+                  <Size unit="KB">8388608</Size>
+                  <SizeMB unit="MB">8192</SizeMB>
+                  <MemDevType>24</MemDevType>
+                  <TypeDetail>8320</TypeDetail>
+                  <extendedSize unit="MB">0</extendedSize>
+               </MemoryDevice>
+               <IsOccupied>true</IsOccupied>
+            </PortGeneric>
+            <PortGeneric oid="83886126" status="2" index="12">
+               <ConnectorType>9</ConnectorType>
+               <SecuritySettings>2</SecuritySettings>
+               <SmbiosConnType>255</SmbiosConnType>
+               <ExtName>DIMM_B4</ExtName>
+               <MemoryDevice>
+                  <Size unit="KB">8388608</Size>
+                  <SizeMB unit="MB">8192</SizeMB>
+                  <MemDevType>24</MemDevType>
+                  <TypeDetail>8320</TypeDetail>
+                  <extendedSize unit="MB">0</extendedSize>
+               </MemoryDevice>
+               <IsOccupied>true</IsOccupied>
+            </PortGeneric>
+            <PortGeneric oid="83886128" status="2" index="13">
+               <ConnectorType>9</ConnectorType>
+               <SecuritySettings>2</SecuritySettings>
+               <SmbiosConnType>255</SmbiosConnType>
+               <ExtName>DIMM_B5</ExtName>
+               <MemoryDevice>
+                  <Size unit="KB">8388608</Size>
+                  <SizeMB unit="MB">8192</SizeMB>
+                  <MemDevType>24</MemDevType>
+                  <TypeDetail>8320</TypeDetail>
+                  <extendedSize unit="MB">0</extendedSize>
+               </MemoryDevice>
+               <IsOccupied>true</IsOccupied>
+            </PortGeneric>
+            <PortGeneric oid="83886130" status="2" index="14">
+               <ConnectorType>9</ConnectorType>
+               <SecuritySettings>2</SecuritySettings>
+               <SmbiosConnType>255</SmbiosConnType>
+               <ExtName>DIMM_B6</ExtName>
+               <MemoryDevice>
+                  <Size unit="KB">8388608</Size>
+                  <SizeMB unit="MB">8192</SizeMB>
+                  <MemDevType>24</MemDevType>
+                  <TypeDetail>8320</TypeDetail>
+                  <extendedSize unit="MB">0</extendedSize>
+               </MemoryDevice>
+               <IsOccupied>true</IsOccupied>
+            </PortGeneric>
+            <PortGeneric oid="83886132" status="2" index="15">
+               <ConnectorType>9</ConnectorType>
+               <SecuritySettings>2</SecuritySettings>
+               <SmbiosConnType>255</SmbiosConnType>
+               <ExtName>DIMM_B7</ExtName>
+               <MemoryDevice>
+                  <Size unit="KB">8388608</Size>
+                  <SizeMB unit="MB">8192</SizeMB>
+                  <MemDevType>24</MemDevType>
+                  <TypeDetail>8320</TypeDetail>
+                  <extendedSize unit="MB">0</extendedSize>
+               </MemoryDevice>
+               <IsOccupied>true</IsOccupied>
+            </PortGeneric>
+            <PortGeneric oid="83886134" status="2" index="16">
+               <ConnectorType>9</ConnectorType>
+               <SecuritySettings>2</SecuritySettings>
+               <SmbiosConnType>255</SmbiosConnType>
+               <ExtName>DIMM_B8</ExtName>
+               <MemoryDevice>
+                  <Size unit="KB">8388608</Size>
+                  <SizeMB unit="MB">8192</SizeMB>
+                  <MemDevType>24</MemDevType>
+                  <TypeDetail>8320</TypeDetail>
+                  <extendedSize unit="MB">0</extendedSize>
+               </MemoryDevice>
+               <IsOccupied>true</IsOccupied>
+            </PortGeneric>
+            <PortGeneric oid="83886136" status="2" index="17">
+               <ConnectorType>9</ConnectorType>
+               <SecuritySettings>2</SecuritySettings>
+               <SmbiosConnType>255</SmbiosConnType>
+               <ExtName>DIMM_B9</ExtName>
+               <MemoryDevice>
+                  <Size unit="KB">8388608</Size>
+                  <SizeMB unit="MB">8192</SizeMB>
+                  <MemDevType>24</MemDevType>
+                  <TypeDetail>8320</TypeDetail>
+                  <extendedSize unit="MB">0</extendedSize>
+               </MemoryDevice>
+               <IsOccupied>true</IsOccupied>
+            </PortGeneric>
+         </MemPortConnList>
+         <InstalledSizeMBCumulative unit="MB">147456</InstalledSizeMBCumulative>
+      </MemoryArray>
+   </MemoryArrayList>
+   <MaxInstalledSizeMBCumulative unit="MB">147456</MaxInstalledSizeMBCumulative>
+   <MaxSizeMBCumulative unit="MB">294912</MaxSizeMBCumulative>
+   <MemoryConfig oid="83886100" status="2">
+      <Capabilities>
+         <SpareBank>false</SpareBank>
+         <Mirroring>false</Mirroring>
+         <Raid5>false</Raid5>
+         <DDDC>false</DDDC>
+         <MOMOptimizer>true</MOMOptimizer>
+         <MOMSpareBank>true</MOMSpareBank>
+         <MOMMirroring>true</MOMMirroring>
+         <MOMAdvECC>true</MOMAdvECC>
+      </Capabilities>
+      <State>4</State>
+      <FailOverState>0</FailOverState>
+   </MemoryConfig>
+   <ObjStatus>4</ObjStatus>
+   <SMStatus>0</SMStatus>
+   <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:0/MemDevObj" instance="0">
+      <totalWidth>72</totalWidth>
+      <dataBusWidth>64</dataBusWidth>
+      <size>8388608</size>
+      <formFactor>9</formFactor>
+      <deviceSet>1</deviceSet>
+      <type>24</type>
+      <typeDetail value="8320" count="14">
+         <Other>false</Other>
+         <Unknown>false</Unknown>
+         <FastPaged>false</FastPaged>
+         <StaticColumn>false</StaticColumn>
+         <PseudoStatic>false</PseudoStatic>
+         <RAMBUS>false</RAMBUS>
+         <Synchronous>true</Synchronous>
+         <CMOS>false</CMOS>
+         <EDO>false</EDO>
+         <WindowDRAM>false</WindowDRAM>
+         <CacheDRAM>false</CacheDRAM>
+         <NonVolatile>false</NonVolatile>
+         <RegisteredBuffered>true</RegisteredBuffered>
+         <UnbufferedUnregistered>false</UnbufferedUnregistered>
+      </typeDetail>
+      <speed>1333</speed>
+      <errCount>0</errCount>
+      <sbErrCount>0</sbErrCount>
+      <mbErrCount>0</mbErrCount>
+      <sno>
+         <size>0</size>
+         <offset>0</offset>
+      </sno>
+      <DeviceLocator>DIMM_A1</DeviceLocator>
+      <BankLocator />
+      <failureModes>0</failureModes>
+      <Manufacturer>Micron Technology (002C00B3802C)</Manufacturer>
+      <SerialNumber>D75958FA</SerialNumber>
+      <AssetTag>01104161</AssetTag>
+      <PartNumber>36JSZF1G72PZ-1G4D1</PartNumber>
+      <SpeedAsString>0.75 ns</SpeedAsString>
+      <AMBManufacturer isnull="true" />
+      <SDRAMManufacturer isnull="true" />
+      <dimmRank>2</dimmRank>
+      <extendedSize>0</extendedSize>
+   </MemDevObj>
+   <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:1/MemDevObj" instance="0">
+      <totalWidth>72</totalWidth>
+      <dataBusWidth>64</dataBusWidth>
+      <size>8388608</size>
+      <formFactor>9</formFactor>
+      <deviceSet>1</deviceSet>
+      <type>24</type>
+      <typeDetail value="8320" count="14">
+         <Other>false</Other>
+         <Unknown>false</Unknown>
+         <FastPaged>false</FastPaged>
+         <StaticColumn>false</StaticColumn>
+         <PseudoStatic>false</PseudoStatic>
+         <RAMBUS>false</RAMBUS>
+         <Synchronous>true</Synchronous>
+         <CMOS>false</CMOS>
+         <EDO>false</EDO>
+         <WindowDRAM>false</WindowDRAM>
+         <CacheDRAM>false</CacheDRAM>
+         <NonVolatile>false</NonVolatile>
+         <RegisteredBuffered>true</RegisteredBuffered>
+         <UnbufferedUnregistered>false</UnbufferedUnregistered>
+      </typeDetail>
+      <speed>1333</speed>
+      <errCount>0</errCount>
+      <sbErrCount>0</sbErrCount>
+      <mbErrCount>0</mbErrCount>
+      <sno>
+         <size>0</size>
+         <offset>0</offset>
+      </sno>
+      <DeviceLocator>DIMM_A2</DeviceLocator>
+      <BankLocator />
+      <failureModes>3</failureModes>
+      <Manufacturer>Micron Technology (002C00B3802C)</Manufacturer>
+      <SerialNumber>DD70B193</SerialNumber>
+      <AssetTag>01104161</AssetTag>
+      <PartNumber>36JSZF1G72PZ-1G4D1</PartNumber>
+      <SpeedAsString>0.75 ns</SpeedAsString>
+      <AMBManufacturer isnull="true" />
+      <SDRAMManufacturer isnull="true" />
+      <dimmRank>2</dimmRank>
+      <extendedSize>0</extendedSize>
+   </MemDevObj>
+   <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:2/MemDevObj" instance="0">
+      <totalWidth>72</totalWidth>
+      <dataBusWidth>64</dataBusWidth>
+      <size>8388608</size>
+      <formFactor>9</formFactor>
+      <deviceSet>2</deviceSet>
+      <type>24</type>
+      <typeDetail value="8320" count="14">
+         <Other>false</Other>
+         <Unknown>false</Unknown>
+         <FastPaged>false</FastPaged>
+         <StaticColumn>false</StaticColumn>
+         <PseudoStatic>false</PseudoStatic>
+         <RAMBUS>false</RAMBUS>
+         <Synchronous>true</Synchronous>
+         <CMOS>false</CMOS>
+         <EDO>false</EDO>
+         <WindowDRAM>false</WindowDRAM>
+         <CacheDRAM>false</CacheDRAM>
+         <NonVolatile>false</NonVolatile>
+         <RegisteredBuffered>true</RegisteredBuffered>
+         <UnbufferedUnregistered>false</UnbufferedUnregistered>
+      </typeDetail>
+      <speed>1333</speed>
+      <errCount>0</errCount>
+      <sbErrCount>0</sbErrCount>
+      <mbErrCount>0</mbErrCount>
+      <sno>
+         <size>0</size>
+         <offset>0</offset>
+      </sno>
+      <DeviceLocator>DIMM_A3</DeviceLocator>
+      <BankLocator />
+      <failureModes>0</failureModes>
+      <Manufacturer>Micron Technology (002C00B3802C)</Manufacturer>
+      <SerialNumber>DD707394</SerialNumber>
+      <AssetTag>08102061</AssetTag>
+      <PartNumber>36JSZF1G72PZ-1G4D1</PartNumber>
+      <SpeedAsString>0.75 ns</SpeedAsString>
+      <AMBManufacturer isnull="true" />
+      <SDRAMManufacturer isnull="true" />
+      <dimmRank>2</dimmRank>
+      <extendedSize>0</extendedSize>
+   </MemDevObj>
+   <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:3/MemDevObj" instance="0">
+      <totalWidth>72</totalWidth>
+      <dataBusWidth>64</dataBusWidth>
+      <size>8388608</size>
+      <formFactor>9</formFactor>
+      <deviceSet>2</deviceSet>
+      <type>24</type>
+      <typeDetail value="8320" count="14">
+         <Other>false</Other>
+         <Unknown>false</Unknown>
+         <FastPaged>false</FastPaged>
+         <StaticColumn>false</StaticColumn>
+         <PseudoStatic>false</PseudoStatic>
+         <RAMBUS>false</RAMBUS>
+         <Synchronous>true</Synchronous>
+         <CMOS>false</CMOS>
+         <EDO>false</EDO>
+         <WindowDRAM>false</WindowDRAM>
+         <CacheDRAM>false</CacheDRAM>
+         <NonVolatile>false</NonVolatile>
+         <RegisteredBuffered>true</RegisteredBuffered>
+         <UnbufferedUnregistered>false</UnbufferedUnregistered>
+      </typeDetail>
+      <speed>1333</speed>
+      <errCount>0</errCount>
+      <sbErrCount>0</sbErrCount>
+      <mbErrCount>0</mbErrCount>
+      <sno>
+         <size>0</size>
+         <offset>0</offset>
+      </sno>
+      <DeviceLocator>DIMM_A4</DeviceLocator>
+      <BankLocator />
+      <failureModes>0</failureModes>
+      <Manufacturer>Micron Technology (002C00B3802C)</Manufacturer>
+      <SerialNumber>D759597D</SerialNumber>
+      <AssetTag>01104161</AssetTag>
+      <PartNumber>36JSZF1G72PZ-1G4D1</PartNumber>
+      <SpeedAsString>0.75 ns</SpeedAsString>
+      <AMBManufacturer isnull="true" />
+      <SDRAMManufacturer isnull="true" />
+      <dimmRank>2</dimmRank>
+      <extendedSize>0</extendedSize>
+   </MemDevObj>
+   <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:4/MemDevObj" instance="0">
+      <totalWidth>72</totalWidth>
+      <dataBusWidth>64</dataBusWidth>
+      <size>8388608</size>
+      <formFactor>9</formFactor>
+      <deviceSet>3</deviceSet>
+      <type>24</type>
+      <typeDetail value="8320" count="14">
+         <Other>false</Other>
+         <Unknown>false</Unknown>
+         <FastPaged>false</FastPaged>
+         <StaticColumn>false</StaticColumn>
+         <PseudoStatic>false</PseudoStatic>
+         <RAMBUS>false</RAMBUS>
+         <Synchronous>true</Synchronous>
+         <CMOS>false</CMOS>
+         <EDO>false</EDO>
+         <WindowDRAM>false</WindowDRAM>
+         <CacheDRAM>false</CacheDRAM>
+         <NonVolatile>false</NonVolatile>
+         <RegisteredBuffered>true</RegisteredBuffered>
+         <UnbufferedUnregistered>false</UnbufferedUnregistered>
+      </typeDetail>
+      <speed>1333</speed>
+      <errCount>0</errCount>
+      <sbErrCount>0</sbErrCount>
+      <mbErrCount>0</mbErrCount>
+      <sno>
+         <size>0</size>
+         <offset>0</offset>
+      </sno>
+      <DeviceLocator>DIMM_A5</DeviceLocator>
+      <BankLocator />
+      <failureModes>0</failureModes>
+      <Manufacturer>Micron Technology (002C00B3802C)</Manufacturer>
+      <SerialNumber>DD71C602</SerialNumber>
+      <AssetTag>01104261</AssetTag>
+      <PartNumber>36JSZF1G72PZ-1G4D1</PartNumber>
+      <SpeedAsString>0.75 ns</SpeedAsString>
+      <AMBManufacturer isnull="true" />
+      <SDRAMManufacturer isnull="true" />
+      <dimmRank>2</dimmRank>
+      <extendedSize>0</extendedSize>
+   </MemDevObj>
+   <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:5/MemDevObj" instance="0">
+      <totalWidth>72</totalWidth>
+      <dataBusWidth>64</dataBusWidth>
+      <size>8388608</size>
+      <formFactor>9</formFactor>
+      <deviceSet>3</deviceSet>
+      <type>24</type>
+      <typeDetail value="8320" count="14">
+         <Other>false</Other>
+         <Unknown>false</Unknown>
+         <FastPaged>false</FastPaged>
+         <StaticColumn>false</StaticColumn>
+         <PseudoStatic>false</PseudoStatic>
+         <RAMBUS>false</RAMBUS>
+         <Synchronous>true</Synchronous>
+         <CMOS>false</CMOS>
+         <EDO>false</EDO>
+         <WindowDRAM>false</WindowDRAM>
+         <CacheDRAM>false</CacheDRAM>
+         <NonVolatile>false</NonVolatile>
+         <RegisteredBuffered>true</RegisteredBuffered>
+         <UnbufferedUnregistered>false</UnbufferedUnregistered>
+      </typeDetail>
+      <speed>1333</speed>
+      <errCount>0</errCount>
+      <sbErrCount>0</sbErrCount>
+      <mbErrCount>0</mbErrCount>
+      <sno>
+         <size>0</size>
+         <offset>0</offset>
+      </sno>
+      <DeviceLocator>DIMM_A6</DeviceLocator>
+      <BankLocator />
+      <failureModes>0</failureModes>
+      <Manufacturer>Micron Technology (002C00B3802C)</Manufacturer>
+      <SerialNumber>E4184E0D</SerialNumber>
+      <AssetTag>01102261</AssetTag>
+      <PartNumber>36JSZF1G72PZ-1G4D1</PartNumber>
+      <SpeedAsString>0.75 ns</SpeedAsString>
+      <AMBManufacturer isnull="true" />
+      <SDRAMManufacturer isnull="true" />
+      <dimmRank>2</dimmRank>
+      <extendedSize>0</extendedSize>
+   </MemDevObj>
+   <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:6/MemDevObj" instance="0">
+      <totalWidth>72</totalWidth>
+      <dataBusWidth>64</dataBusWidth>
+      <size>8388608</size>
+      <formFactor>9</formFactor>
+      <deviceSet>4</deviceSet>
+      <type>24</type>
+      <typeDetail value="8320" count="14">
+         <Other>false</Other>
+         <Unknown>false</Unknown>
+         <FastPaged>false</FastPaged>
+         <StaticColumn>false</StaticColumn>
+         <PseudoStatic>false</PseudoStatic>
+         <RAMBUS>false</RAMBUS>
+         <Synchronous>true</Synchronous>
+         <CMOS>false</CMOS>
+         <EDO>false</EDO>
+         <WindowDRAM>false</WindowDRAM>
+         <CacheDRAM>false</CacheDRAM>
+         <NonVolatile>false</NonVolatile>
+         <RegisteredBuffered>true</RegisteredBuffered>
+         <UnbufferedUnregistered>false</UnbufferedUnregistered>
+      </typeDetail>
+      <speed>1333</speed>
+      <errCount>0</errCount>
+      <sbErrCount>0</sbErrCount>
+      <mbErrCount>0</mbErrCount>
+      <sno>
+         <size>0</size>
+         <offset>0</offset>
+      </sno>
+      <DeviceLocator>DIMM_A7</DeviceLocator>
+      <BankLocator />
+      <failureModes>0</failureModes>
+      <Manufacturer>Micron Technology (002C00B3802C)</Manufacturer>
+      <SerialNumber>D7595974</SerialNumber>
+      <AssetTag>01104161</AssetTag>
+      <PartNumber>36JSZF1G72PZ-1G4D1</PartNumber>
+      <SpeedAsString>0.75 ns</SpeedAsString>
+      <AMBManufacturer isnull="true" />
+      <SDRAMManufacturer isnull="true" />
+      <dimmRank>2</dimmRank>
+      <extendedSize>0</extendedSize>
+   </MemDevObj>
+   <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:7/MemDevObj" instance="0">
+      <totalWidth>72</totalWidth>
+      <dataBusWidth>64</dataBusWidth>
+      <size>8388608</size>
+      <formFactor>9</formFactor>
+      <deviceSet>4</deviceSet>
+      <type>24</type>
+      <typeDetail value="8320" count="14">
+         <Other>false</Other>
+         <Unknown>false</Unknown>
+         <FastPaged>false</FastPaged>
+         <StaticColumn>false</StaticColumn>
+         <PseudoStatic>false</PseudoStatic>
+         <RAMBUS>false</RAMBUS>
+         <Synchronous>true</Synchronous>
+         <CMOS>false</CMOS>
+         <EDO>false</EDO>
+         <WindowDRAM>false</WindowDRAM>
+         <CacheDRAM>false</CacheDRAM>
+         <NonVolatile>false</NonVolatile>
+         <RegisteredBuffered>true</RegisteredBuffered>
+         <UnbufferedUnregistered>false</UnbufferedUnregistered>
+      </typeDetail>
+      <speed>1333</speed>
+      <errCount>0</errCount>
+      <sbErrCount>0</sbErrCount>
+      <mbErrCount>0</mbErrCount>
+      <sno>
+         <size>0</size>
+         <offset>0</offset>
+      </sno>
+      <DeviceLocator>DIMM_A8</DeviceLocator>
+      <BankLocator />
+      <failureModes>0</failureModes>
+      <Manufacturer>Micron Technology (002C00B3802C)</Manufacturer>
+      <SerialNumber>DD707459</SerialNumber>
+      <AssetTag>08102061</AssetTag>
+      <PartNumber>36JSZF1G72PZ-1G4D1</PartNumber>
+      <SpeedAsString>0.75 ns</SpeedAsString>
+      <AMBManufacturer isnull="true" />
+      <SDRAMManufacturer isnull="true" />
+      <dimmRank>2</dimmRank>
+      <extendedSize>0</extendedSize>
+   </MemDevObj>
+   <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:8/MemDevObj" instance="0">
+      <totalWidth>72</totalWidth>
+      <dataBusWidth>64</dataBusWidth>
+      <size>8388608</size>
+      <formFactor>9</formFactor>
+      <deviceSet>5</deviceSet>
+      <type>24</type>
+      <typeDetail value="8320" count="14">
+         <Other>false</Other>
+         <Unknown>false</Unknown>
+         <FastPaged>false</FastPaged>
+         <StaticColumn>false</StaticColumn>
+         <PseudoStatic>false</PseudoStatic>
+         <RAMBUS>false</RAMBUS>
+         <Synchronous>true</Synchronous>
+         <CMOS>false</CMOS>
+         <EDO>false</EDO>
+         <WindowDRAM>false</WindowDRAM>
+         <CacheDRAM>false</CacheDRAM>
+         <NonVolatile>false</NonVolatile>
+         <RegisteredBuffered>true</RegisteredBuffered>
+         <UnbufferedUnregistered>false</UnbufferedUnregistered>
+      </typeDetail>
+      <speed>1333</speed>
+      <errCount>0</errCount>
+      <sbErrCount>0</sbErrCount>
+      <mbErrCount>0</mbErrCount>
+      <sno>
+         <size>0</size>
+         <offset>0</offset>
+      </sno>
+      <DeviceLocator>DIMM_A9</DeviceLocator>
+      <BankLocator />
+      <failureModes>0</failureModes>
+      <Manufacturer>Micron Technology (002C00B3802C)</Manufacturer>
+      <SerialNumber>DD70B17C</SerialNumber>
+      <AssetTag>01104161</AssetTag>
+      <PartNumber>36JSZF1G72PZ-1G4D1</PartNumber>
+      <SpeedAsString>0.75 ns</SpeedAsString>
+      <AMBManufacturer isnull="true" />
+      <SDRAMManufacturer isnull="true" />
+      <dimmRank>2</dimmRank>
+      <extendedSize>0</extendedSize>
+   </MemDevObj>
+   <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:9/MemDevObj" instance="0">
+      <totalWidth>72</totalWidth>
+      <dataBusWidth>64</dataBusWidth>
+      <size>8388608</size>
+      <formFactor>9</formFactor>
+      <deviceSet>5</deviceSet>
+      <type>24</type>
+      <typeDetail value="8320" count="14">
+         <Other>false</Other>
+         <Unknown>false</Unknown>
+         <FastPaged>false</FastPaged>
+         <StaticColumn>false</StaticColumn>
+         <PseudoStatic>false</PseudoStatic>
+         <RAMBUS>false</RAMBUS>
+         <Synchronous>true</Synchronous>
+         <CMOS>false</CMOS>
+         <EDO>false</EDO>
+         <WindowDRAM>false</WindowDRAM>
+         <CacheDRAM>false</CacheDRAM>
+         <NonVolatile>false</NonVolatile>
+         <RegisteredBuffered>true</RegisteredBuffered>
+         <UnbufferedUnregistered>false</UnbufferedUnregistered>
+      </typeDetail>
+      <speed>1333</speed>
+      <errCount>0</errCount>
+      <sbErrCount>0</sbErrCount>
+      <mbErrCount>0</mbErrCount>
+      <sno>
+         <size>0</size>
+         <offset>0</offset>
+      </sno>
+      <DeviceLocator>DIMM_B1</DeviceLocator>
+      <BankLocator />
+      <failureModes>0</failureModes>
+      <Manufacturer>Micron Technology (002C00B3802C)</Manufacturer>
+      <SerialNumber>D86BE8EA</SerialNumber>
+      <AssetTag>08102061</AssetTag>
+      <PartNumber>36JSZF1G72PZ-1G4D1</PartNumber>
+      <SpeedAsString>0.75 ns</SpeedAsString>
+      <AMBManufacturer isnull="true" />
+      <SDRAMManufacturer isnull="true" />
+      <dimmRank>2</dimmRank>
+      <extendedSize>0</extendedSize>
+   </MemDevObj>
+   <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:10/MemDevObj" instance="0">
+      <totalWidth>72</totalWidth>
+      <dataBusWidth>64</dataBusWidth>
+      <size>8388608</size>
+      <formFactor>9</formFactor>
+      <deviceSet>6</deviceSet>
+      <type>24</type>
+      <typeDetail value="8320" count="14">
+         <Other>false</Other>
+         <Unknown>false</Unknown>
+         <FastPaged>false</FastPaged>
+         <StaticColumn>false</StaticColumn>
+         <PseudoStatic>false</PseudoStatic>
+         <RAMBUS>false</RAMBUS>
+         <Synchronous>true</Synchronous>
+         <CMOS>false</CMOS>
+         <EDO>false</EDO>
+         <WindowDRAM>false</WindowDRAM>
+         <CacheDRAM>false</CacheDRAM>
+         <NonVolatile>false</NonVolatile>
+         <RegisteredBuffered>true</RegisteredBuffered>
+         <UnbufferedUnregistered>false</UnbufferedUnregistered>
+      </typeDetail>
+      <speed>1333</speed>
+      <errCount>0</errCount>
+      <sbErrCount>0</sbErrCount>
+      <mbErrCount>0</mbErrCount>
+      <sno>
+         <size>0</size>
+         <offset>0</offset>
+      </sno>
+      <DeviceLocator>DIMM_B2</DeviceLocator>
+      <BankLocator />
+      <failureModes>0</failureModes>
+      <Manufacturer>Micron Technology (002C00B3802C)</Manufacturer>
+      <SerialNumber>DB577C87</SerialNumber>
+      <AssetTag>01104161</AssetTag>
+      <PartNumber>36JSZF1G72PZ-1G4D1</PartNumber>
+      <SpeedAsString>0.75 ns</SpeedAsString>
+      <AMBManufacturer isnull="true" />
+      <SDRAMManufacturer isnull="true" />
+      <dimmRank>2</dimmRank>
+      <extendedSize>0</extendedSize>
+   </MemDevObj>
+   <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:11/MemDevObj" instance="0">
+      <totalWidth>72</totalWidth>
+      <dataBusWidth>64</dataBusWidth>
+      <size>8388608</size>
+      <formFactor>9</formFactor>
+      <deviceSet>6</deviceSet>
+      <type>24</type>
+      <typeDetail value="8320" count="14">
+         <Other>false</Other>
+         <Unknown>false</Unknown>
+         <FastPaged>false</FastPaged>
+         <StaticColumn>false</StaticColumn>
+         <PseudoStatic>false</PseudoStatic>
+         <RAMBUS>false</RAMBUS>
+         <Synchronous>true</Synchronous>
+         <CMOS>false</CMOS>
+         <EDO>false</EDO>
+         <WindowDRAM>false</WindowDRAM>
+         <CacheDRAM>false</CacheDRAM>
+         <NonVolatile>false</NonVolatile>
+         <RegisteredBuffered>true</RegisteredBuffered>
+         <UnbufferedUnregistered>false</UnbufferedUnregistered>
+      </typeDetail>
+      <speed>1333</speed>
+      <errCount>0</errCount>
+      <sbErrCount>0</sbErrCount>
+      <mbErrCount>0</mbErrCount>
+      <sno>
+         <size>0</size>
+         <offset>0</offset>
+      </sno>
+      <DeviceLocator>DIMM_B3</DeviceLocator>
+      <BankLocator />
+      <failureModes>0</failureModes>
+      <Manufacturer>Micron Technology (002C00B3802C)</Manufacturer>
+      <SerialNumber>DD70B4C2</SerialNumber>
+      <AssetTag>01104161</AssetTag>
+      <PartNumber>36JSZF1G72PZ-1G4D1</PartNumber>
+      <SpeedAsString>0.75 ns</SpeedAsString>
+      <AMBManufacturer isnull="true" />
+      <SDRAMManufacturer isnull="true" />
+      <dimmRank>2</dimmRank>
+      <extendedSize>0</extendedSize>
+   </MemDevObj>
+   <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:12/MemDevObj" instance="0">
+      <totalWidth>72</totalWidth>
+      <dataBusWidth>64</dataBusWidth>
+      <size>8388608</size>
+      <formFactor>9</formFactor>
+      <deviceSet>4</deviceSet>
+      <type>24</type>
+      <typeDetail value="8320" count="14">
+         <Other>false</Other>
+         <Unknown>false</Unknown>
+         <FastPaged>false</FastPaged>
+         <StaticColumn>false</StaticColumn>
+         <PseudoStatic>false</PseudoStatic>
+         <RAMBUS>false</RAMBUS>
+         <Synchronous>true</Synchronous>
+         <CMOS>false</CMOS>
+         <EDO>false</EDO>
+         <WindowDRAM>false</WindowDRAM>
+         <CacheDRAM>false</CacheDRAM>
+         <NonVolatile>false</NonVolatile>
+         <RegisteredBuffered>true</RegisteredBuffered>
+         <UnbufferedUnregistered>false</UnbufferedUnregistered>
+      </typeDetail>
+      <speed>1333</speed>
+      <errCount>0</errCount>
+      <sbErrCount>0</sbErrCount>
+      <mbErrCount>0</mbErrCount>
+      <sno>
+         <size>0</size>
+         <offset>0</offset>
+      </sno>
+      <DeviceLocator>DIMM_B4</DeviceLocator>
+      <BankLocator />
+      <failureModes>0</failureModes>
+      <Manufacturer>Micron Technology (002C00B3802C)</Manufacturer>
+      <SerialNumber>D759594B</SerialNumber>
+      <AssetTag>01104161</AssetTag>
+      <PartNumber>36JSZF1G72PZ-1G4D1</PartNumber>
+      <SpeedAsString>0.75 ns</SpeedAsString>
+      <AMBManufacturer isnull="true" />
+      <SDRAMManufacturer isnull="true" />
+      <dimmRank>2</dimmRank>
+      <extendedSize>0</extendedSize>
+   </MemDevObj>
+   <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:13/MemDevObj" instance="0">
+      <totalWidth>72</totalWidth>
+      <dataBusWidth>64</dataBusWidth>
+      <size>8388608</size>
+      <formFactor>9</formFactor>
+      <deviceSet>5</deviceSet>
+      <type>24</type>
+      <typeDetail value="8320" count="14">
+         <Other>false</Other>
+         <Unknown>false</Unknown>
+         <FastPaged>false</FastPaged>
+         <StaticColumn>false</StaticColumn>
+         <PseudoStatic>false</PseudoStatic>
+         <RAMBUS>false</RAMBUS>
+         <Synchronous>true</Synchronous>
+         <CMOS>false</CMOS>
+         <EDO>false</EDO>
+         <WindowDRAM>false</WindowDRAM>
+         <CacheDRAM>false</CacheDRAM>
+         <NonVolatile>false</NonVolatile>
+         <RegisteredBuffered>true</RegisteredBuffered>
+         <UnbufferedUnregistered>false</UnbufferedUnregistered>
+      </typeDetail>
+      <speed>1333</speed>
+      <errCount>0</errCount>
+      <sbErrCount>0</sbErrCount>
+      <mbErrCount>0</mbErrCount>
+      <sno>
+         <size>0</size>
+         <offset>0</offset>
+      </sno>
+      <DeviceLocator>DIMM_B5</DeviceLocator>
+      <BankLocator />
+      <failureModes>0</failureModes>
+      <Manufacturer>Micron Technology (002C00B3802C)</Manufacturer>
+      <SerialNumber>D759598B</SerialNumber>
+      <AssetTag>01104161</AssetTag>
+      <PartNumber>36JSZF1G72PZ-1G4D1</PartNumber>
+      <SpeedAsString>0.75 ns</SpeedAsString>
+      <AMBManufacturer isnull="true" />
+      <SDRAMManufacturer isnull="true" />
+      <dimmRank>2</dimmRank>
+      <extendedSize>0</extendedSize>
+   </MemDevObj>
+   <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:14/MemDevObj" instance="0">
+      <totalWidth>72</totalWidth>
+      <dataBusWidth>64</dataBusWidth>
+      <size>8388608</size>
+      <formFactor>9</formFactor>
+      <deviceSet>6</deviceSet>
+      <type>24</type>
+      <typeDetail value="8320" count="14">
+         <Other>false</Other>
+         <Unknown>false</Unknown>
+         <FastPaged>false</FastPaged>
+         <StaticColumn>false</StaticColumn>
+         <PseudoStatic>false</PseudoStatic>
+         <RAMBUS>false</RAMBUS>
+         <Synchronous>true</Synchronous>
+         <CMOS>false</CMOS>
+         <EDO>false</EDO>
+         <WindowDRAM>false</WindowDRAM>
+         <CacheDRAM>false</CacheDRAM>
+         <NonVolatile>false</NonVolatile>
+         <RegisteredBuffered>true</RegisteredBuffered>
+         <UnbufferedUnregistered>false</UnbufferedUnregistered>
+      </typeDetail>
+      <speed>1333</speed>
+      <errCount>0</errCount>
+      <sbErrCount>0</sbErrCount>
+      <mbErrCount>0</mbErrCount>
+      <sno>
+         <size>0</size>
+         <offset>0</offset>
+      </sno>
+      <DeviceLocator>DIMM_B6</DeviceLocator>
+      <BankLocator />
+      <failureModes>0</failureModes>
+      <Manufacturer>Micron Technology (002C00B3802C)</Manufacturer>
+      <SerialNumber>D75956A5</SerialNumber>
+      <AssetTag>01104161</AssetTag>
+      <PartNumber>36JSZF1G72PZ-1G4D1</PartNumber>
+      <SpeedAsString>0.75 ns</SpeedAsString>
+      <AMBManufacturer isnull="true" />
+      <SDRAMManufacturer isnull="true" />
+      <dimmRank>2</dimmRank>
+      <extendedSize>0</extendedSize>
+   </MemDevObj>
+   <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:15/MemDevObj" instance="0">
+      <totalWidth>72</totalWidth>
+      <dataBusWidth>64</dataBusWidth>
+      <size>8388608</size>
+      <formFactor>9</formFactor>
+      <deviceSet>4</deviceSet>
+      <type>24</type>
+      <typeDetail value="8320" count="14">
+         <Other>false</Other>
+         <Unknown>false</Unknown>
+         <FastPaged>false</FastPaged>
+         <StaticColumn>false</StaticColumn>
+         <PseudoStatic>false</PseudoStatic>
+         <RAMBUS>false</RAMBUS>
+         <Synchronous>true</Synchronous>
+         <CMOS>false</CMOS>
+         <EDO>false</EDO>
+         <WindowDRAM>false</WindowDRAM>
+         <CacheDRAM>false</CacheDRAM>
+         <NonVolatile>false</NonVolatile>
+         <RegisteredBuffered>true</RegisteredBuffered>
+         <UnbufferedUnregistered>false</UnbufferedUnregistered>
+      </typeDetail>
+      <speed>1333</speed>
+      <errCount>0</errCount>
+      <sbErrCount>0</sbErrCount>
+      <mbErrCount>0</mbErrCount>
+      <sno>
+         <size>0</size>
+         <offset>0</offset>
+      </sno>
+      <DeviceLocator>DIMM_B7</DeviceLocator>
+      <BankLocator />
+      <failureModes>0</failureModes>
+      <Manufacturer>Micron Technology (002C00B3802C)</Manufacturer>
+      <SerialNumber>D7595965</SerialNumber>
+      <AssetTag>01104161</AssetTag>
+      <PartNumber>36JSZF1G72PZ-1G4D1</PartNumber>
+      <SpeedAsString>0.75 ns</SpeedAsString>
+      <AMBManufacturer isnull="true" />
+      <SDRAMManufacturer isnull="true" />
+      <dimmRank>2</dimmRank>
+      <extendedSize>0</extendedSize>
+   </MemDevObj>
+   <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:16/MemDevObj" instance="0">
+      <totalWidth>72</totalWidth>
+      <dataBusWidth>64</dataBusWidth>
+      <size>8388608</size>
+      <formFactor>9</formFactor>
+      <deviceSet>5</deviceSet>
+      <type>24</type>
+      <typeDetail value="8320" count="14">
+         <Other>false</Other>
+         <Unknown>false</Unknown>
+         <FastPaged>false</FastPaged>
+         <StaticColumn>false</StaticColumn>
+         <PseudoStatic>false</PseudoStatic>
+         <RAMBUS>false</RAMBUS>
+         <Synchronous>true</Synchronous>
+         <CMOS>false</CMOS>
+         <EDO>false</EDO>
+         <WindowDRAM>false</WindowDRAM>
+         <CacheDRAM>false</CacheDRAM>
+         <NonVolatile>false</NonVolatile>
+         <RegisteredBuffered>true</RegisteredBuffered>
+         <UnbufferedUnregistered>false</UnbufferedUnregistered>
+      </typeDetail>
+      <speed>1333</speed>
+      <errCount>0</errCount>
+      <sbErrCount>0</sbErrCount>
+      <mbErrCount>0</mbErrCount>
+      <sno>
+         <size>0</size>
+         <offset>0</offset>
+      </sno>
+      <DeviceLocator>DIMM_B8</DeviceLocator>
+      <BankLocator />
+      <failureModes>0</failureModes>
+      <Manufacturer>Micron Technology (002C00B3802C)</Manufacturer>
+      <SerialNumber>D759597B</SerialNumber>
+      <AssetTag>01104161</AssetTag>
+      <PartNumber>36JSZF1G72PZ-1G4D1</PartNumber>
+      <SpeedAsString>0.75 ns</SpeedAsString>
+      <AMBManufacturer isnull="true" />
+      <SDRAMManufacturer isnull="true" />
+      <dimmRank>2</dimmRank>
+      <extendedSize>0</extendedSize>
+   </MemDevObj>
+   <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:17/MemDevObj" instance="0">
+      <totalWidth>72</totalWidth>
+      <dataBusWidth>64</dataBusWidth>
+      <size>8388608</size>
+      <formFactor>9</formFactor>
+      <deviceSet>6</deviceSet>
+      <type>24</type>
+      <typeDetail value="8320" count="14">
+         <Other>false</Other>
+         <Unknown>false</Unknown>
+         <FastPaged>false</FastPaged>
+         <StaticColumn>false</StaticColumn>
+         <PseudoStatic>false</PseudoStatic>
+         <RAMBUS>false</RAMBUS>
+         <Synchronous>true</Synchronous>
+         <CMOS>false</CMOS>
+         <EDO>false</EDO>
+         <WindowDRAM>false</WindowDRAM>
+         <CacheDRAM>false</CacheDRAM>
+         <NonVolatile>false</NonVolatile>
+         <RegisteredBuffered>true</RegisteredBuffered>
+         <UnbufferedUnregistered>false</UnbufferedUnregistered>
+      </typeDetail>
+      <speed>1333</speed>
+      <errCount>0</errCount>
+      <sbErrCount>0</sbErrCount>
+      <mbErrCount>0</mbErrCount>
+      <sno>
+         <size>0</size>
+         <offset>0</offset>
+      </sno>
+      <DeviceLocator>DIMM_B9</DeviceLocator>
+      <BankLocator />
+      <failureModes>0</failureModes>
+      <Manufacturer>Micron Technology (002C00B3802C)</Manufacturer>
+      <SerialNumber>DD707377</SerialNumber>
+      <AssetTag>08102061</AssetTag>
+      <PartNumber>36JSZF1G72PZ-1G4D1</PartNumber>
+      <SpeedAsString>0.75 ns</SpeedAsString>
+      <AMBManufacturer isnull="true" />
+      <SDRAMManufacturer isnull="true" />
+      <dimmRank>2</dimmRank>
+      <extendedSize>0</extendedSize>
+   </MemDevObj>
+   <ObjCount>18</ObjCount>
+   <SMStatus s32val="0" strval="SUCCESS">0</SMStatus>
+</OMA>
