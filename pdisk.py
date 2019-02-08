@@ -33,30 +33,4 @@ for e in pdisk_xml.iter('OMA'):
             pdisk_json = {"ProductID": product_id, "ObjectID": oid, "Serial": serial, "NumPartitions": num_partitions, "NegotiatedSpeed": neg_speed, "CapableSpeed": capable_speed, "Status": status}
             json_report['Report'].append({oid: pdisk_json})
 
-
-
-serial = x.find('DeviceSerialNumber').text
-num_partitions = x.find('NumOfPartition').text
-neg_speed = x.find('NegotiatedSpeed').text
-capable_speed = x.find('CapableSpeed').text
-# Presumably 4 is OK
-status = x.find('ObjStatus').text
-
-"""
-for e in pdisk_xml.getiterator('DCStorageObject'):
-    for c in e:
-
-        item_tag = c.tag
-
-ObjID
-ObjState
-ObjStatus
-ControllerNum
-ProductID
-DeviceSerialNumber
-NumOfPartition
-NegotiatedSpeed
-CapableSpeed
-DeviceID
-ArraySize
-"""
+# Add to mongo API here
