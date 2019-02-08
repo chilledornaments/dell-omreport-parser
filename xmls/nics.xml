@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OMA>
+   <DevNicObj ons="Root/MainSystemChassis/DevNicObj:0" instance="0" creatoralias="dcadpt" creatordisplay="Adapter Data Populator">
+      <oid>16777216</oid>
+      <objtype>96</objtype>
+      <objstatus>1</objstatus>
+      <busNumber>1</busNumber>
+      <deviceNumber>0</deviceNumber>
+      <functionNumber>0</functionNumber>
+      <typeNetworkComponent>0</typeNetworkComponent>
+      <ifType>6</ifType>
+      <nicStatus>2</nicStatus>
+      <ifAdminStatus>1</ifAdminStatus>
+      <ifOperStatus>2</ifOperStatus>
+      <linkStatus>2</linkStatus>
+      <duplex>0</duplex>
+      <irq>36</irq>
+      <dma>0</dma>
+      <baseAddress>0</baseAddress>
+      <numMemRanges>1</numMemRanges>
+      <memRangesarray count="4">
+         <memRanges index="0">
+            <startAddr>3590324224</startAddr>
+            <endAddr>3623878655</endAddr>
+         </memRanges>
+         <memRanges index="1">
+            <startAddr>0</startAddr>
+            <endAddr>0</endAddr>
+         </memRanges>
+         <memRanges index="2">
+            <startAddr>0</startAddr>
+            <endAddr>0</endAddr>
+         </memRanges>
+         <memRanges index="3">
+            <startAddr>0</startAddr>
+            <endAddr>0</endAddr>
+         </memRanges>
+      </memRangesarray>
+      <baseMemAddr>3590324224</baseMemAddr>
+      <speed>0</speed>
+      <mtu>1500</mtu>
+      <portNum>0</portNum>
+      <uTeamType>
+         <bitMap>1</bitMap>
+      </uTeamType>
+      <nicCapabilities value="0" count="4">
+         <Supported>false</Supported>
+         <TOE>false</TOE>
+         <iSCSIOffload>false</iSCSIOffload>
+         <FCoEOffload>false</FCoEOffload>
+      </nicCapabilities>
+      <nicTOECapability>0</nicTOECapability>
+      <niciSCSICapability>0</niciSCSICapability>
+      <nicRDMACapability>0</nicRDMACapability>
+      <isTOEEnable>false</isTOEEnable>
+      <isiSCSIEnable>false</isiSCSIEnable>
+      <isRDMAEnable>false</isRDMAEnable>
+      <showNPAREP>true</showNPAREP>
+      <isNPAREPEnable>false</isNPAREPEnable>
+      <teamType>0</teamType>
+      <teamRole>0</teamRole>
+      <IfDescription>eth0</IfDescription>
+      <OSAdapterDescription>PowerEdge R710 BCM5709 Gigabit Ethernet</OSAdapterDescription>
+      <OSAdapterVendor>Broadcom Corporation</OSAdapterVendor>
+      <OSAdapterProductName isnull="true" />
+      <SlotName>Embedded</SlotName>
+      <DriverName>bnx2</DriverName>
+      <DriverVersion>2.2.5r</DriverVersion>
+      <ImagePath isnull="true" />
+      <ServiceName isnull="true" />
+      <FirmwareVersion>Family 7.6.15 (7.6.15 bc 7.4.0 NCSI 2.0.11)</FirmwareVersion>
+      <CurrentMACAddr>00:24:E8:6A:E7:C3</CurrentMACAddr>
+      <PermanentMACAddr>00:24:E8:6A:E7:C3</PermanentMACAddr>
+      <IPAddress isnull="true" />
+      <SubNetMask isnull="true" />
+      <DHCPServer isnull="true" />
+      <DefaultGateway isnull="true" />
+      <IPv6Address isnull="true" />
+      <DHCPv6Server isnull="true" />
+      <DefaultIPv6Gateway isnull="true" />
+      <TeamName isnull="true" />
+   </DevNicObj>
+   <DevNicObj ons="Root/MainSystemChassis/DevNicObj:1" instance="1" creatoralias="dcadpt" creatordisplay="Adapter Data Populator">
+      <oid>16777220</oid>
+      <objtype>96</objtype>
+      <objstatus>1</objstatus>
+      <busNumber>1</busNumber>
+      <deviceNumber>0</deviceNumber>
+      <functionNumber>1</functionNumber>
+      <typeNetworkComponent>0</typeNetworkComponent>
+      <ifType>6</ifType>
+      <nicStatus>1</nicStatus>
+      <ifAdminStatus>1</ifAdminStatus>
+      <ifOperStatus>1</ifOperStatus>
+      <linkStatus>1</linkStatus>
+      <duplex>2</duplex>
+      <irq>48</irq>
+      <dma>0</dma>
+      <baseAddress>0</baseAddress>
+      <numMemRanges>1</numMemRanges>
+      <memRangesarray count="4">
+         <memRanges index="0">
+            <startAddr>3623878656</startAddr>
+            <endAddr>3657433087</endAddr>
+         </memRanges>
+         <memRanges index="1">
+            <startAddr>0</startAddr>
+            <endAddr>0</endAddr>
+         </memRanges>
+         <memRanges index="2">
+            <startAddr>0</startAddr>
+            <endAddr>0</endAddr>
+         </memRanges>
+         <memRanges index="3">
+            <startAddr>0</startAddr>
+            <endAddr>0</endAddr>
+         </memRanges>
+      </memRangesarray>
+      <baseMemAddr>3623878656</baseMemAddr>
+      <speed>1000000000</speed>
+      <mtu>1500</mtu>
+      <portNum>0</portNum>
+      <uTeamType>
+         <bitMap>1</bitMap>
+      </uTeamType>
+      <nicCapabilities value="0" count="4">
+         <Supported>false</Supported>
+         <TOE>false</TOE>
+         <iSCSIOffload>false</iSCSIOffload>
+         <FCoEOffload>false</FCoEOffload>
+      </nicCapabilities>
+      <nicTOECapability>0</nicTOECapability>
+      <niciSCSICapability>0</niciSCSICapability>
+      <nicRDMACapability>0</nicRDMACapability>
+      <isTOEEnable>false</isTOEEnable>
+      <isiSCSIEnable>false</isiSCSIEnable>
+      <isRDMAEnable>false</isRDMAEnable>
+      <showNPAREP>true</showNPAREP>
+      <isNPAREPEnable>false</isNPAREPEnable>
+      <teamType>0</teamType>
+      <teamRole>0</teamRole>
+      <IfDescription>eth1</IfDescription>
+      <OSAdapterDescription>PowerEdge R710 BCM5709 Gigabit Ethernet</OSAdapterDescription>
+      <OSAdapterVendor>Broadcom Corporation</OSAdapterVendor>
+      <OSAdapterProductName isnull="true" />
+      <SlotName>Embedded</SlotName>
+      <DriverName>bnx2</DriverName>
+      <DriverVersion>2.2.5r</DriverVersion>
+      <ImagePath isnull="true" />
+      <ServiceName isnull="true" />
+      <FirmwareVersion>Family 7.6.15 (7.6.15 bc 7.4.0 NCSI 2.0.11)</FirmwareVersion>
+      <CurrentMACAddr>00:24:E8:6A:E7:C5</CurrentMACAddr>
+      <PermanentMACAddr>00:24:E8:6A:E7:C5</PermanentMACAddr>
+      <IPAddress isnull="true" />
+      <SubNetMask isnull="true" />
+      <DHCPServer isnull="true" />
+      <DefaultGateway isnull="true" />
+      <IPv6Address isnull="true" />
+      <DHCPv6Server isnull="true" />
+      <DefaultIPv6Gateway isnull="true" />
+      <TeamName isnull="true" />
+   </DevNicObj>
+   <DevNicObj ons="Root/MainSystemChassis/DevNicObj:2" instance="2" creatoralias="dcadpt" creatordisplay="Adapter Data Populator">
+      <oid>16777224</oid>
+      <objtype>96</objtype>
+      <objstatus>1</objstatus>
+      <busNumber>2</busNumber>
+      <deviceNumber>0</deviceNumber>
+      <functionNumber>0</functionNumber>
+      <typeNetworkComponent>0</typeNetworkComponent>
+      <ifType>6</ifType>
+      <nicStatus>1</nicStatus>
+      <ifAdminStatus>1</ifAdminStatus>
+      <ifOperStatus>1</ifOperStatus>
+      <linkStatus>1</linkStatus>
+      <duplex>2</duplex>
+      <irq>32</irq>
+      <dma>0</dma>
+      <baseAddress>0</baseAddress>
+      <numMemRanges>1</numMemRanges>
+      <memRangesarray count="4">
+         <memRanges index="0">
+            <startAddr>3657433088</startAddr>
+            <endAddr>3690987519</endAddr>
+         </memRanges>
+         <memRanges index="1">
+            <startAddr>0</startAddr>
+            <endAddr>0</endAddr>
+         </memRanges>
+         <memRanges index="2">
+            <startAddr>0</startAddr>
+            <endAddr>0</endAddr>
+         </memRanges>
+         <memRanges index="3">
+            <startAddr>0</startAddr>
+            <endAddr>0</endAddr>
+         </memRanges>
+      </memRangesarray>
+      <baseMemAddr>3657433088</baseMemAddr>
+      <speed>1000000000</speed>
+      <mtu>1500</mtu>
+      <portNum>0</portNum>
+      <uTeamType>
+         <bitMap>1</bitMap>
+      </uTeamType>
+      <nicCapabilities value="0" count="4">
+         <Supported>false</Supported>
+         <TOE>false</TOE>
+         <iSCSIOffload>false</iSCSIOffload>
+         <FCoEOffload>false</FCoEOffload>
+      </nicCapabilities>
+      <nicTOECapability>0</nicTOECapability>
+      <niciSCSICapability>0</niciSCSICapability>
+      <nicRDMACapability>0</nicRDMACapability>
+      <isTOEEnable>false</isTOEEnable>
+      <isiSCSIEnable>false</isiSCSIEnable>
+      <isRDMAEnable>false</isRDMAEnable>
+      <showNPAREP>true</showNPAREP>
+      <isNPAREPEnable>false</isNPAREPEnable>
+      <teamType>0</teamType>
+      <teamRole>0</teamRole>
+      <IfDescription>eth2</IfDescription>
+      <OSAdapterDescription>PowerEdge R710 BCM5709 Gigabit Ethernet</OSAdapterDescription>
+      <OSAdapterVendor>Broadcom Corporation</OSAdapterVendor>
+      <OSAdapterProductName isnull="true" />
+      <SlotName>Embedded</SlotName>
+      <DriverName>bnx2</DriverName>
+      <DriverVersion>2.2.5r</DriverVersion>
+      <ImagePath isnull="true" />
+      <ServiceName isnull="true" />
+      <FirmwareVersion>Family 7.6.15 (7.6.15 bc 7.4.0 NCSI 2.0.11)</FirmwareVersion>
+      <CurrentMACAddr>00:24:E8:6A:E7:C7</CurrentMACAddr>
+      <PermanentMACAddr>00:24:E8:6A:E7:C7</PermanentMACAddr>
+      <IPAddress isnull="true" />
+      <SubNetMask isnull="true" />
+      <DHCPServer isnull="true" />
+      <DefaultGateway isnull="true" />
+      <IPv6Address isnull="true" />
+      <DHCPv6Server isnull="true" />
+      <DefaultIPv6Gateway isnull="true" />
+      <TeamName isnull="true" />
+   </DevNicObj>
+   <DevNicObj ons="Root/MainSystemChassis/DevNicObj:3" instance="3" creatoralias="dcadpt" creatordisplay="Adapter Data Populator">
+      <oid>16777228</oid>
+      <objtype>96</objtype>
+      <objstatus>1</objstatus>
+      <busNumber>2</busNumber>
+      <deviceNumber>0</deviceNumber>
+      <functionNumber>1</functionNumber>
+      <typeNetworkComponent>0</typeNetworkComponent>
+      <ifType>6</ifType>
+      <nicStatus>1</nicStatus>
+      <ifAdminStatus>1</ifAdminStatus>
+      <ifOperStatus>1</ifOperStatus>
+      <linkStatus>1</linkStatus>
+      <duplex>2</duplex>
+      <irq>42</irq>
+      <dma>0</dma>
+      <baseAddress>0</baseAddress>
+      <numMemRanges>1</numMemRanges>
+      <memRangesarray count="4">
+         <memRanges index="0">
+            <startAddr>3690987520</startAddr>
+            <endAddr>3724541951</endAddr>
+         </memRanges>
+         <memRanges index="1">
+            <startAddr>0</startAddr>
+            <endAddr>0</endAddr>
+         </memRanges>
+         <memRanges index="2">
+            <startAddr>0</startAddr>
+            <endAddr>0</endAddr>
+         </memRanges>
+         <memRanges index="3">
+            <startAddr>0</startAddr>
+            <endAddr>0</endAddr>
+         </memRanges>
+      </memRangesarray>
+      <baseMemAddr>3690987520</baseMemAddr>
+      <speed>1000000000</speed>
+      <mtu>1500</mtu>
+      <portNum>0</portNum>
+      <uTeamType>
+         <bitMap>1</bitMap>
+      </uTeamType>
+      <nicCapabilities value="0" count="4">
+         <Supported>false</Supported>
+         <TOE>false</TOE>
+         <iSCSIOffload>false</iSCSIOffload>
+         <FCoEOffload>false</FCoEOffload>
+      </nicCapabilities>
+      <nicTOECapability>0</nicTOECapability>
+      <niciSCSICapability>0</niciSCSICapability>
+      <nicRDMACapability>0</nicRDMACapability>
+      <isTOEEnable>false</isTOEEnable>
+      <isiSCSIEnable>false</isiSCSIEnable>
+      <isRDMAEnable>false</isRDMAEnable>
+      <showNPAREP>true</showNPAREP>
+      <isNPAREPEnable>false</isNPAREPEnable>
+      <teamType>0</teamType>
+      <teamRole>0</teamRole>
+      <IfDescription>eth3</IfDescription>
+      <OSAdapterDescription>PowerEdge R710 BCM5709 Gigabit Ethernet</OSAdapterDescription>
+      <OSAdapterVendor>Broadcom Corporation</OSAdapterVendor>
+      <OSAdapterProductName isnull="true" />
+      <SlotName>Embedded</SlotName>
+      <DriverName>bnx2</DriverName>
+      <DriverVersion>2.2.5r</DriverVersion>
+      <ImagePath isnull="true" />
+      <ServiceName isnull="true" />
+      <FirmwareVersion>Family 7.6.15 (7.6.15 bc 7.4.0 NCSI 2.0.11)</FirmwareVersion>
+      <CurrentMACAddr>00:24:E8:6A:E7:C9</CurrentMACAddr>
+      <PermanentMACAddr>00:24:E8:6A:E7:C9</PermanentMACAddr>
+      <IPAddress isnull="true" />
+      <SubNetMask isnull="true" />
+      <DHCPServer isnull="true" />
+      <DefaultGateway isnull="true" />
+      <IPv6Address isnull="true" />
+      <DHCPv6Server isnull="true" />
+      <DefaultIPv6Gateway isnull="true" />
+      <TeamName isnull="true" />
+   </DevNicObj>
+   <VirNicObj ons="Root/MainSystemChassis/VirNicObj:0" instance="0" creatoralias="dcadpt" creatordisplay="Adapter Data Populator">
+      <oid>16777232</oid>
+      <objtype>100</objtype>
+      <objstatus>1</objstatus>
+      <ifType>6</ifType>
+      <nicStatus>4</nicStatus>
+      <ifAdminStatus>2</ifAdminStatus>
+      <ifOperStatus>2</ifOperStatus>
+      <linkStatus>0</linkStatus>
+      <mtu>1500</mtu>
+      <speed>0</speed>
+      <teamType>0</teamType>
+      <teamRole>0</teamRole>
+      <teamRedundancyStatus>0</teamRedundancyStatus>
+      <IfDescription>ovs-system</IfDescription>
+      <OSAdapterDescription>Virtual Switch</OSAdapterDescription>
+      <OSAdapterVendor>XenServer</OSAdapterVendor>
+      <SlotName>Virtual</SlotName>
+      <DriverName>openvswitch</DriverName>
+      <DriverVersion isnull="true" />
+      <ImagePath isnull="true" />
+      <CurrentMACAddr>46:7E:C8:AE:C7:38</CurrentMACAddr>
+      <IPAddress isnull="true" />
+      <SubNetMask isnull="true" />
+      <DHCPServer isnull="true" />
+      <DefaultGateway isnull="true" />
+      <IPv6Address isnull="true" />
+      <DHCPv6Server isnull="true" />
+      <DefaultIPv6Gateway isnull="true" />
+      <TeamName isnull="true" />
+      <PrimarySlave isnull="true" />
+      <CurrentlyActiveSlave isnull="true" />
+   </VirNicObj>
+   <VirNicObj ons="Root/MainSystemChassis/VirNicObj:1" instance="1" creatoralias="dcadpt" creatordisplay="Adapter Data Populator">
+      <oid>16777235</oid>
+      <objtype>100</objtype>
+      <objstatus>1</objstatus>
+      <ifType>6</ifType>
+      <nicStatus>1</nicStatus>
+      <ifAdminStatus>1</ifAdminStatus>
+      <ifOperStatus>1</ifOperStatus>
+      <linkStatus>1</linkStatus>
+      <mtu>1500</mtu>
+      <speed>0</speed>
+      <teamType>0</teamType>
+      <teamRole>0</teamRole>
+      <teamRedundancyStatus>0</teamRedundancyStatus>
+      <IfDescription>xapi1</IfDescription>
+      <OSAdapterDescription>Virtual Switch</OSAdapterDescription>
+      <OSAdapterVendor>XenServer</OSAdapterVendor>
+      <SlotName>Virtual</SlotName>
+      <DriverName>openvswitch</DriverName>
+      <DriverVersion isnull="true" />
+      <ImagePath isnull="true" />
+      <CurrentMACAddr>00:24:E8:6A:E7:C5</CurrentMACAddr>
+      <IPAddress isnull="true" />
+      <SubNetMask isnull="true" />
+      <DHCPServer isnull="true" />
+      <DefaultGateway isnull="true" />
+      <IPv6Address isnull="true" />
+      <DHCPv6Server isnull="true" />
+      <DefaultIPv6Gateway isnull="true" />
+      <TeamName isnull="true" />
+      <PrimarySlave isnull="true" />
+      <CurrentlyActiveSlave isnull="true" />
+   </VirNicObj>
+   <VirNicObj ons="Root/MainSystemChassis/VirNicObj:2" instance="2" creatoralias="dcadpt" creatordisplay="Adapter Data Populator">
+      <oid>16777238</oid>
+      <objtype>100</objtype>
+      <objstatus>1</objstatus>
+      <ifType>6</ifType>
+      <nicStatus>1</nicStatus>
+      <ifAdminStatus>1</ifAdminStatus>
+      <ifOperStatus>1</ifOperStatus>
+      <linkStatus>1</linkStatus>
+      <mtu>1500</mtu>
+      <speed>0</speed>
+      <teamType>0</teamType>
+      <teamRole>0</teamRole>
+      <teamRedundancyStatus>0</teamRedundancyStatus>
+      <IfDescription>xenbr0</IfDescription>
+      <OSAdapterDescription>Virtual Switch</OSAdapterDescription>
+      <OSAdapterVendor>XenServer</OSAdapterVendor>
+      <SlotName>Virtual</SlotName>
+      <DriverName>openvswitch</DriverName>
+      <DriverVersion isnull="true" />
+      <ImagePath isnull="true" />
+      <CurrentMACAddr>00:24:E8:6A:E7:C3</CurrentMACAddr>
+      <IPAddress isnull="true" />
+      <SubNetMask isnull="true" />
+      <DHCPServer isnull="true" />
+      <DefaultGateway isnull="true" />
+      <IPv6Address isnull="true" />
+      <DHCPv6Server isnull="true" />
+      <DefaultIPv6Gateway isnull="true" />
+      <TeamName isnull="true" />
+      <PrimarySlave isnull="true" />
+      <CurrentlyActiveSlave isnull="true" />
+   </VirNicObj>
+   <VirNicObj ons="Root/MainSystemChassis/VirNicObj:3" instance="3" creatoralias="dcadpt" creatordisplay="Adapter Data Populator">
+      <oid>16777241</oid>
+      <objtype>100</objtype>
+      <objstatus>1</objstatus>
+      <ifType>6</ifType>
+      <nicStatus>1</nicStatus>
+      <ifAdminStatus>1</ifAdminStatus>
+      <ifOperStatus>1</ifOperStatus>
+      <linkStatus>1</linkStatus>
+      <mtu>1500</mtu>
+      <speed>0</speed>
+      <teamType>0</teamType>
+      <teamRole>0</teamRole>
+      <teamRedundancyStatus>0</teamRedundancyStatus>
+      <IfDescription>xenbr3</IfDescription>
+      <OSAdapterDescription>Virtual Switch</OSAdapterDescription>
+      <OSAdapterVendor>XenServer</OSAdapterVendor>
+      <SlotName>Virtual</SlotName>
+      <DriverName>openvswitch</DriverName>
+      <DriverVersion isnull="true" />
+      <ImagePath isnull="true" />
+      <CurrentMACAddr>00:24:E8:6A:E7:C9</CurrentMACAddr>
+      <IPAddress>172.28.252.25</IPAddress>
+      <SubNetMask>255.255.252.0</SubNetMask>
+      <DHCPServer isnull="true" />
+      <DefaultGateway>172.28.252.1</DefaultGateway>
+      <IPv6Address isnull="true" />
+      <DHCPv6Server isnull="true" />
+      <DefaultIPv6Gateway isnull="true" />
+      <TeamName isnull="true" />
+      <PrimarySlave isnull="true" />
+      <CurrentlyActiveSlave isnull="true" />
+   </VirNicObj>
+   <ObjCount>8</ObjCount>
+   <SMStatus s32val="0" strval="SUCCESS">0</SMStatus>
+</OMA>
