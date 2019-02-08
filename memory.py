@@ -16,7 +16,7 @@ mem_xml = ET.fromstring(mem_out)
 json_report = {}
 json_report['Host'] = host
 json_report['Category'] = "Memory"
-json_report['Report'] = []
+json_report['Report'] = {}
 
 
 for e in mem_xml.iter('OMA'):
@@ -28,8 +28,9 @@ for e in mem_xml.iter('OMA'):
         speed = i.find('speed').text
         size = i.find('size').text
         status = i.find('failureModes').text
-        mem_json = {"Manufacturer": manufacturer, "SerialNumber": serial, "PartNumber": part_number, "Speed": speed, "Size": size, "Status": status}
-        json_report['Report'].append({dev_location: mem_json})
+        json_ = {"Manufacturer": manufacturer, "SerialNumber": serial, "PartNumber": part_number, "Speed": speed, "Size": size, "Status": status}
+        json_report['Report'][dev_location] = json_
+        #json_report['Report'].append({dev_location: mem_json})
         
 print(json.dumps(json_report))
 

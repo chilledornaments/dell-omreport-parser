@@ -1,13 +1,14 @@
 #!/usr/bin/env python36
 import subprocess, requests, json
 import xml.etree.ElementTree as ET
-#from io import StringIO
-
 
 
 dell_tool = "/opt/dell/srvadmin/sbin/omreport"
 dell_strg_arg = "storage"
 dell_controller_arg = "controller"
+
+host = "xenserver"
+
 
 controller_out = subprocess.check_output([dell_tool, dell_strg_arg, dell_controller_arg, '-fmt', 'xml']).decode('utf-8')
 
