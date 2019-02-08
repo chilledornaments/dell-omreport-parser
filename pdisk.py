@@ -2,13 +2,14 @@
 # ./omreport storage pdisk controller=0 -fmt xml
 import xml.etree.ElementTree as ET
 import subprocess, requests, json
+from config import *
 
 dell_tool = "/opt/dell/srvadmin/sbin/omreport"
 dell_strg_arg = "storage"
 dell_pdisk_arg = "pdisk"
 dell_controller_arg = "controller=0"
 
-host = "xenserver"
+host = host
 
 json_report = {}
 json_report['Host'] = host

@@ -2,12 +2,13 @@
 # ./omreport chassis memory -fmt xml
 import xml.etree.ElementTree as ET
 import subprocess, requests, json
+from config import *
 
 dell_tool = "/opt/dell/srvadmin/sbin/omreport"
 dell_arg = "chassis"
 dell_mem_arg = "memory"
 
-host = "xenserver"
+host = host
 
 mem_out = subprocess.check_output([dell_tool, dell_arg, dell_mem_arg, '-fmt', 'xml']).decode('utf-8')
 

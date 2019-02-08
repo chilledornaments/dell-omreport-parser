@@ -2,12 +2,13 @@
 # ./omreport chassis processors -fmt xml
 import xml.etree.ElementTree as ET
 import subprocess, requests, json
+from config import *
 
 dell_tool = "/opt/dell/srvadmin/sbin/omreport"
 dell_arg = "chassis"
 dell_arg_two = "processors"
 
-host = "xenserver"
+host = host
 
 text_out = subprocess.check_output([dell_tool, dell_arg, dell_arg_two, '-fmt', 'xml']).decode('utf-8')
 

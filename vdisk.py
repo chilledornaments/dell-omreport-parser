@@ -1,12 +1,13 @@
 #!/usr/bin/env python36
 import subprocess, requests, json
 import xml.etree.ElementTree as ET
+from config import *
 
 dell_tool = "/opt/dell/srvadmin/sbin/omreport"
 dell_strg_arg = "storage"
 dell_arg = "vdisk"
 
-host = "xenserver"
+host = host
 
 json_report = {}
 json_report['Host'] = host

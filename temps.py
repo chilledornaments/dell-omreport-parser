@@ -1,13 +1,14 @@
 #!/usr/bin/env python36
-# ./omreport chassis fans -fmt xml
+# ./omreport chassis temps -fmt xml
 import xml.etree.ElementTree as ET
 import subprocess, requests, json
+from config import *
 
 dell_tool = "/opt/dell/srvadmin/sbin/omreport"
 dell_arg = "chassis"
 dell_arg_two = "temps"
 
-host = "xenserver"
+host = host
 json_report = {}
 json_report['Host'] = host
 json_report['Category'] = "Temperature"
