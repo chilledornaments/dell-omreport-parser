@@ -1,5 +1,5 @@
 #!/usr/bin/env python36
-import subprocess, requests, json
+import subprocess, requests, json, post_metrics
 import xml.etree.ElementTree as ET
 from config import *
 

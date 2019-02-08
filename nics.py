@@ -1,7 +1,7 @@
 #!/usr/bin/env python36
 # ./omreport chassis nics -fmt xml
 import xml.etree.ElementTree as ET
-import subprocess, requests, json
+import subprocess, requests, json, post_metrics
 from config import *
 
 dell_tool = "/opt/dell/srvadmin/sbin/omreport"
