@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OMA cli="true">
+   <Chassis oid="2" status="4" name="2" objtype="17" index="0" display="Main System Chassis">
+      <Redundancy oid="134217780" status="2">
+         <RedunStatus>4</RedunStatus>
+         <RedunCount>0</RedunCount>
+         <RedunName>System Board Fan Redundancy</RedunName>
+      </Redundancy>
+      <FanProbeList poid="2" count="5">
+         <FanProbe oid="134217758" status="2" poid="134217780" pobjtype="2" index="0">
+            <SubType>3</SubType>
+            <ProbeReading unit="RPM">3600</ProbeReading>
+            <ProbeThresholds>
+               <UNRThreshold>-2147483648</UNRThreshold>
+               <UCThreshold>-2147483648</UCThreshold>
+               <UNCThreshold>-2147483648</UNCThreshold>
+               <LNCThreshold>-2147483648</LNCThreshold>
+               <LCThreshold>720</LCThreshold>
+               <LNRThreshold>-2147483648</LNRThreshold>
+            </ProbeThresholds>
+            <ProbeStatus>2</ProbeStatus>
+            <Capabilities>
+               <ProbeUNCDefSetEnabled>false</ProbeUNCDefSetEnabled>
+               <ProbeLNCDefSetEnabled>false</ProbeLNCDefSetEnabled>
+               <ProbeUNCSetEnabled>false</ProbeUNCSetEnabled>
+               <ProbeLNCSetEnabled>false</ProbeLNCSetEnabled>
+            </Capabilities>
+            <ProbeLocation>System Board FAN 1 RPM</ProbeLocation>
+         </FanProbe>
+         <FanProbe oid="134217759" status="2" poid="134217780" pobjtype="2" index="1">
+            <SubType>3</SubType>
+            <ProbeReading unit="RPM">3600</ProbeReading>
+            <ProbeThresholds>
+               <UNRThreshold>-2147483648</UNRThreshold>
+               <UCThreshold>-2147483648</UCThreshold>
+               <UNCThreshold>-2147483648</UNCThreshold>
+               <LNCThreshold>-2147483648</LNCThreshold>
+               <LCThreshold>720</LCThreshold>
+               <LNRThreshold>-2147483648</LNRThreshold>
+            </ProbeThresholds>
+            <ProbeStatus>2</ProbeStatus>
+            <Capabilities>
+               <ProbeUNCDefSetEnabled>false</ProbeUNCDefSetEnabled>
+               <ProbeLNCDefSetEnabled>false</ProbeLNCDefSetEnabled>
+               <ProbeUNCSetEnabled>false</ProbeUNCSetEnabled>
+               <ProbeLNCSetEnabled>false</ProbeLNCSetEnabled>
+            </Capabilities>
+            <ProbeLocation>System Board FAN 2 RPM</ProbeLocation>
+         </FanProbe>
+         <FanProbe oid="134217760" status="2" poid="134217780" pobjtype="2" index="2">
+            <SubType>3</SubType>
+            <ProbeReading unit="RPM">3600</ProbeReading>
+            <ProbeThresholds>
+               <UNRThreshold>-2147483648</UNRThreshold>
+               <UCThreshold>-2147483648</UCThreshold>
+               <UNCThreshold>-2147483648</UNCThreshold>
+               <LNCThreshold>-2147483648</LNCThreshold>
+               <LCThreshold>720</LCThreshold>
+               <LNRThreshold>-2147483648</LNRThreshold>
+            </ProbeThresholds>
+            <ProbeStatus>2</ProbeStatus>
+            <Capabilities>
+               <ProbeUNCDefSetEnabled>false</ProbeUNCDefSetEnabled>
+               <ProbeLNCDefSetEnabled>false</ProbeLNCDefSetEnabled>
+               <ProbeUNCSetEnabled>false</ProbeUNCSetEnabled>
+               <ProbeLNCSetEnabled>false</ProbeLNCSetEnabled>
+            </Capabilities>
+            <ProbeLocation>System Board FAN 3 RPM</ProbeLocation>
+         </FanProbe>
+         <FanProbe oid="134217761" status="2" poid="134217780" pobjtype="2" index="3">
+            <SubType>3</SubType>
+            <ProbeReading unit="RPM">3600</ProbeReading>
+            <ProbeThresholds>
+               <UNRThreshold>-2147483648</UNRThreshold>
+               <UCThreshold>-2147483648</UCThreshold>
+               <UNCThreshold>-2147483648</UNCThreshold>
+               <LNCThreshold>-2147483648</LNCThreshold>
+               <LCThreshold>720</LCThreshold>
+               <LNRThreshold>-2147483648</LNRThreshold>
+            </ProbeThresholds>
+            <ProbeStatus>2</ProbeStatus>
+            <Capabilities>
+               <ProbeUNCDefSetEnabled>false</ProbeUNCDefSetEnabled>
+               <ProbeLNCDefSetEnabled>false</ProbeLNCDefSetEnabled>
+               <ProbeUNCSetEnabled>false</ProbeUNCSetEnabled>
+               <ProbeLNCSetEnabled>false</ProbeLNCSetEnabled>
+            </Capabilities>
+            <ProbeLocation>System Board FAN 4 RPM</ProbeLocation>
+         </FanProbe>
+         <FanProbe oid="134217762" status="2" poid="134217780" pobjtype="2" index="4">
+            <SubType>3</SubType>
+            <ProbeReading unit="RPM">3600</ProbeReading>
+            <ProbeThresholds>
+               <UNRThreshold>-2147483648</UNRThreshold>
+               <UCThreshold>-2147483648</UCThreshold>
+               <UNCThreshold>-2147483648</UNCThreshold>
+               <LNCThreshold>-2147483648</LNCThreshold>
+               <LCThreshold>720</LCThreshold>
+               <LNRThreshold>-2147483648</LNRThreshold>
+            </ProbeThresholds>
+            <ProbeStatus>2</ProbeStatus>
+            <Capabilities>
+               <ProbeUNCDefSetEnabled>false</ProbeUNCDefSetEnabled>
+               <ProbeLNCDefSetEnabled>false</ProbeLNCDefSetEnabled>
+               <ProbeUNCSetEnabled>false</ProbeUNCSetEnabled>
+               <ProbeLNCSetEnabled>false</ProbeLNCSetEnabled>
+            </Capabilities>
+            <ProbeLocation>System Board FAN 5 RPM</ProbeLocation>
+         </FanProbe>
+      </FanProbeList>
+      <ObjStatus>2</ObjStatus>
+   </Chassis>
+   <SMStatus>0</SMStatus>
+   <OMACMDNEW>0</OMACMDNEW>
+</OMA>

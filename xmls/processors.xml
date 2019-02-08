@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OMA cli="true">
+   <ProcessorList count="2">
+      <ProcessorConn oid="83886082" status="2" index="0">
+         <ConnectorType>25</ConnectorType>
+         <SecuritySettings>2</SecuritySettings>
+         <SmbiosConnType>255</SmbiosConnType>
+         <ExtName>CPU1</ExtName>
+         <IsOccupied>true</IsOccupied>
+         <DevProcessor oid="83886083" status="2">
+            <ExtName>CPU1</ExtName>
+            <ProcessorType>3</ProcessorType>
+            <Family>179</Family>
+            <MaxSpeed unit="MHz">3600</MaxSpeed>
+            <CurSpeed unit="MHz">2133</CurSpeed>
+            <ExtClockSpeed unit="MHz">5860</ExtClockSpeed>
+            <Voltage unit="mV">1200</Voltage>
+            <ProcessorStatus>3</ProcessorStatus>
+            <Upgrade>25</Upgrade>
+            <Manufacturer>Intel</Manufacturer>
+            <Version>Intel(R) Xeon(R) CPU           L5639  @ 2.13GHz Stepping 2</Version>
+            <CoreCount>6</CoreCount>
+            <CoreEnabledCount>6</CoreEnabledCount>
+            <ThreadCount>12</ThreadCount>
+            <Model>Model 44</Model>
+            <Stepping>Stepping 2</Stepping>
+            <Brand>Intel(R) Xeon(R) CPU           L5639  @ 2.13GHz</Brand>
+            <CapableOf64bit>true</CapableOf64bit>
+            <CapableOfVT>true</CapableOfVT>
+            <CapableOfDBS>true</CapableOfDBS>
+            <CapableOfNX>true</CapableOfNX>
+            <CapableOfHT>true</CapableOfHT>
+            <CapableOfTRB>true</CapableOfTRB>
+            <EnabledVT>true</EnabledVT>
+            <EnabledDBS>false</EnabledDBS>
+            <EnabledNX>true</EnabledNX>
+            <EnabledHT>true</EnabledHT>
+            <EnabledTRB>true</EnabledTRB>
+            <characteristics>4</characteristics>
+            <extendedCharacteristics>31</extendedCharacteristics>
+            <extendedStates>29</extendedStates>
+         </DevProcessor>
+      </ProcessorConn>
+      <ProcessorConn oid="83886087" status="2" index="1">
+         <ConnectorType>25</ConnectorType>
+         <SecuritySettings>2</SecuritySettings>
+         <SmbiosConnType>255</SmbiosConnType>
+         <ExtName>CPU2</ExtName>
+         <IsOccupied>true</IsOccupied>
+         <DevProcessor oid="83886088" status="2">
+            <ExtName>CPU2</ExtName>
+            <ProcessorType>3</ProcessorType>
+            <Family>179</Family>
+            <MaxSpeed unit="MHz">3600</MaxSpeed>
+            <CurSpeed unit="MHz">2133</CurSpeed>
+            <ExtClockSpeed unit="MHz">5860</ExtClockSpeed>
+            <Voltage unit="mV">1200</Voltage>
+            <ProcessorStatus>3</ProcessorStatus>
+            <Upgrade>25</Upgrade>
+            <Manufacturer>Intel</Manufacturer>
+            <Version>Intel(R) Xeon(R) CPU           L5639  @ 2.13GHz Stepping 2</Version>
+            <CoreCount>6</CoreCount>
+            <CoreEnabledCount>6</CoreEnabledCount>
+            <ThreadCount>12</ThreadCount>
+            <Model>Model 44</Model>
+            <Stepping>Stepping 2</Stepping>
+            <Brand>Intel(R) Xeon(R) CPU           L5639  @ 2.13GHz</Brand>
+            <CapableOf64bit>true</CapableOf64bit>
+            <CapableOfVT>true</CapableOfVT>
+            <CapableOfDBS>true</CapableOfDBS>
+            <CapableOfNX>true</CapableOfNX>
+            <CapableOfHT>true</CapableOfHT>
+            <CapableOfTRB>true</CapableOfTRB>
+            <EnabledVT>true</EnabledVT>
+            <EnabledDBS>false</EnabledDBS>
+            <EnabledNX>true</EnabledNX>
+            <EnabledHT>true</EnabledHT>
+            <EnabledTRB>true</EnabledTRB>
+            <characteristics>4</characteristics>
+            <extendedCharacteristics>31</extendedCharacteristics>
+            <extendedStates>29</extendedStates>
+         </DevProcessor>
+      </ProcessorConn>
+   </ProcessorList>
+   <CPUStatusProbeList poid="1" count="2">
+      <CPUStatusProbe oid="134217768" status="2" poid="2" pobjtype="17" index="0">
+         <SubType>18</SubType>
+         <ProcessorStatus>
+            <CPUStatusIErr>false</CPUStatusIErr>
+            <CPUStatusThermTrip>false</CPUStatusThermTrip>
+            <CPUStatusConfigErr>false</CPUStatusConfigErr>
+            <CPUStatusPresenceDetected>true</CPUStatusPresenceDetected>
+            <CPUStatusDisabled>false</CPUStatusDisabled>
+            <CPUStatusTermPresenceDetected>false</CPUStatusTermPresenceDetected>
+            <CPUStatusThrottled>false</CPUStatusThrottled>
+         </ProcessorStatus>
+         <ProbeLocation>CPU1</ProbeLocation>
+      </CPUStatusProbe>
+      <CPUStatusProbe oid="134217769" status="2" poid="2" pobjtype="17" index="1">
+         <SubType>18</SubType>
+         <ProcessorStatus>
+            <CPUStatusIErr>false</CPUStatusIErr>
+            <CPUStatusThermTrip>false</CPUStatusThermTrip>
+            <CPUStatusConfigErr>false</CPUStatusConfigErr>
+            <CPUStatusPresenceDetected>true</CPUStatusPresenceDetected>
+            <CPUStatusDisabled>false</CPUStatusDisabled>
+            <CPUStatusTermPresenceDetected>false</CPUStatusTermPresenceDetected>
+            <CPUStatusThrottled>false</CPUStatusThrottled>
+         </ProcessorStatus>
+         <ProbeLocation>CPU2</ProbeLocation>
+      </CPUStatusProbe>
+   </CPUStatusProbeList>
+   <ObjStatus>2</ObjStatus>
+   <ObjStatus>2</ObjStatus>
+   <SMStatus>0</SMStatus>
+</OMA>
