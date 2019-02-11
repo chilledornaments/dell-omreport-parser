@@ -9,6 +9,7 @@ dell_arg = "chassis"
 dell_arg_two = "pwrsupplies"
 
 host = host
+
 json_report = {}
 json_report['Host'] = host
 json_report['Category'] = "PowerSupplies"
@@ -34,7 +35,7 @@ for e in text_xml.iter('OMA'):
                     failed = p.find('PSFailureDetected').text
                     predict_fail = p.find('PSPredictiveFailure').text
                     ac_status = p.find('PSACLost').text
-                json_ = {"Name": name, "Detected": exists, "Failed": failed, "PredictedFail": predict_fail, "ACLost": ac_status, "FanFailed": fan_ok, "FirmwareVersion": fw_ver, "ACOn": ac_on}
+                json_ = {"Name": name, "Detected": exists, "InputRating": input_rating, "Failed": failed, "PredictedFail": predict_fail, "ACLost": ac_status, "FanFailed": fan_ok, "FirmwareVersion": fw_ver, "ACOn": ac_on}
                 json_report['Report'][name] = json_
 
 
