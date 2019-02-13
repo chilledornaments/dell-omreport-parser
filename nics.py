@@ -40,7 +40,7 @@ for e in text_xml.iter('OMA'):
         vendor = v.find('OSAdapterVendor').text
         driver_version = v.find('DriverVersion').text
         curr_mac = v.find('CurrentMACAddr').text
-        json_ = {"Name": name, "Description": desc, "Slot": slot, "MTU": mtu, "Vendor": vendor, "DriverVersion": driver_version, "FirmwareVersion": "null", "CurrentMAC": curr_mac}
+        json_ = {"Name": name, "Description": desc, "Slot": slot, "MTU": mtu, "Vendor": vendor, "DriverVersion": "null", "FirmwareVersion": "null", "CurrentMAC": curr_mac}
         json_report['Report'][name] = json_
 
 print(json.dumps(json_report))

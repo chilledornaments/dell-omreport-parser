@@ -1,18 +1,1 @@
-{
-    "Host": "xenserver",
-    "Category": "memory",
-    "Report": [{
-        "DIMM_A1": {
-            "Manufacturer": "Test",
-            "Speed": 1333
-
-        },
-        "DIMM_B1": {
-            "Manufacturer": "Test",
-            "Speed": 1333
-        }
-
-    }]
-
-
-}
+{"Host": "xenserver", "Category": "Memory", "Report": {"DIMM_A1 ": {"Manufacturer": "Micron Technology (002C00B3802C)", "SerialNumber": "D75958FA", "PartNumber": "36JSZF1G72PZ-1G4D1", "Speed": "1333", "Size": "8388608", "Status": "0"}, "DIMM_A2 ": {"Manufacturer": "Micron Technology (002C00B3802C)", "SerialNumber": "DD70B193", "PartNumber": "36JSZF1G72PZ-1G4D1", "Speed": "1333", "Size": "8388608", "Status": "3"}, "DIMM_A3 ": {"Manufacturer": "Micron Technology (002C00B3802C)", "SerialNumber": "DD707394", "PartNumber": "36JSZF1G72PZ-1G4D1", "Speed": "1333", "Size": "8388608", "Status": "0"}, "DIMM_A4 ": {"Manufacturer": "Micron Technology (002C00B3802C)", "SerialNumber": "D759597D", "PartNumber": "36JSZF1G72PZ-1G4D1", "Speed": "1333", "Size": "8388608", "Status": "0"}, "DIMM_A5 ": {"Manufacturer": "Micron Technology (002C00B3802C)", "SerialNumber": "DD71C602", "PartNumber": "36JSZF1G72PZ-1G4D1", "Speed": "1333", "Size": "8388608", "Status": "0"}, "DIMM_A6 ": {"Manufacturer": "Micron Technology (002C00B3802C)", "SerialNumber": "E4184E0D", "PartNumber": "36JSZF1G72PZ-1G4D1", "Speed": "1333", "Size": "8388608", "Status": "0"}, "DIMM_A7 ": {"Manufacturer": "Micron Technology (002C00B3802C)", "SerialNumber": "D7595974", "PartNumber": "36JSZF1G72PZ-1G4D1", "Speed": "1333", "Size": "8388608", "Status": "0"}, "DIMM_A8 ": {"Manufacturer": "Micron Technology (002C00B3802C)", "SerialNumber": "DD707459", "PartNumber": "36JSZF1G72PZ-1G4D1", "Speed": "1333", "Size": "8388608", "Status": "0"}, "DIMM_A9 ": {"Manufacturer": "Micron Technology (002C00B3802C)", "SerialNumber": "DD70B17C", "PartNumber": "36JSZF1G72PZ-1G4D1", "Speed": "1333", "Size": "8388608", "Status": "0"}, "DIMM_B1 ": {"Manufacturer": "Micron Technology (002C00B3802C)", "SerialNumber": "D86BE8EA", "PartNumber": "36JSZF1G72PZ-1G4D1", "Speed": "1333", "Size": "8388608", "Status": "0"}, "DIMM_B2 ": {"Manufacturer": "Micron Technology (002C00B3802C)", "SerialNumber": "DB577C87", "PartNumber": "36JSZF1G72PZ-1G4D1", "Speed": "1333", "Size": "8388608", "Status": "0"}, "DIMM_B3 ": {"Manufacturer": "Micron Technology (002C00B3802C)", "SerialNumber": "DD70B4C2", "PartNumber": "36JSZF1G72PZ-1G4D1", "Speed": "1333", "Size": "8388608", "Status": "0"}, "DIMM_B4 ": {"Manufacturer": "Micron Technology (002C00B3802C)", "SerialNumber": "D759594B", "PartNumber": "36JSZF1G72PZ-1G4D1", "Speed": "1333", "Size": "8388608", "Status": "0"}, "DIMM_B5 ": {"Manufacturer": "Micron Technology (002C00B3802C)", "SerialNumber": "D759598B", "PartNumber": "36JSZF1G72PZ-1G4D1", "Speed": "1333", "Size": "8388608", "Status": "0"}, "DIMM_B6 ": {"Manufacturer": "Micron Technology (002C00B3802C)", "SerialNumber": "D75956A5", "PartNumber": "36JSZF1G72PZ-1G4D1", "Speed": "1333", "Size": "8388608", "Status": "0"}, "DIMM_B7 ": {"Manufacturer": "Micron Technology (002C00B3802C)", "SerialNumber": "D7595965", "PartNumber": "36JSZF1G72PZ-1G4D1", "Speed": "1333", "Size": "8388608", "Status": "0"}, "DIMM_B8 ": {"Manufacturer": "Micron Technology (002C00B3802C)", "SerialNumber": "D759597B", "PartNumber": "36JSZF1G72PZ-1G4D1", "Speed": "1333", "Size": "8388608", "Status": "0"}, "DIMM_B9 ": {"Manufacturer": "Micron Technology (002C00B3802C)", "SerialNumber": "DD707377", "PartNumber": "36JSZF1G72PZ-1G4D1", "Speed": "1333", "Size": "8388608", "Status": "0"}}}
