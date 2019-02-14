@@ -42,7 +42,7 @@ install_packages () {
     done
     easy_install-3.6 pip 
     pip3 install requests
-    
+    schedule
     elif [ "${PKG_MGR}" == "apt" ]
     then
     deb_packages=("I'm an RHCSA")
@@ -50,6 +50,7 @@ install_packages () {
     do
     apt -y install "${package}" > /dev/null
     done
+    schedule
     fi
     
 }
