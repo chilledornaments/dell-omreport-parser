@@ -41,6 +41,7 @@ install_packages () {
     yum -y install "${package}" > /dev/null
     easy_install-3.6 pip install requests
     elif [ "${PKG_MGR}" == "apt" ]
+    then
     deb_packages=("I'm an RHCSA")
     for package in ${deb_packages[@]}
     do
