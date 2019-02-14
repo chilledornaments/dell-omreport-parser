@@ -43,4 +43,6 @@ for e in text_xml.iter('OMA'):
         json_ = {"Name": name, "Description": desc, "Slot": slot, "MTU": mtu, "Vendor": vendor, "DriverVersion": "null", "FirmwareVersion": "null", "CurrentMAC": curr_mac}
         json_report['Report'][name] = json_
 
-print(json.dumps(json_report))
+post_ = post_metrics.PostMetrics()
+r = post_.post(json_)
+print(r)

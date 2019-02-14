@@ -36,4 +36,6 @@ for e in pdisk_xml.iter('OMA'):
             json_report['Report'][oid] = json_
             #json_report['Report'].append({oid: pdisk_json})
 
-# Add to mongo API here
+post_ = post_metrics.PostMetrics()
+r = post_.post(json_)
+print(r)

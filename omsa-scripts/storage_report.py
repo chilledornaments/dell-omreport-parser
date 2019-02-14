@@ -42,7 +42,9 @@ good_good_json['AlarmStatus'] = alarm
 
 
 
-# Post JSON to API that talks to Mongo here:
+post_ = post_metrics.PostMetrics()
+r = post_.post(json_)
+print(r)
 
 
 """    

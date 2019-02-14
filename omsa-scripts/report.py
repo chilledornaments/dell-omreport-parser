@@ -64,3 +64,7 @@ print(cpu_list)
 Object types:
 210 = CPU
 23 = Chassis (?)
+"""
+post_ = post_metrics.PostMetrics()
+r = post_.post(json_)
+print(r)

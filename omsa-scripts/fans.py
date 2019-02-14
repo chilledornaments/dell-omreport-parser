@@ -27,5 +27,7 @@ for e in text_xml.iter('OMA'):
                 json_ = {"DeviceName": dev_name, "SpeedInRPM": speed}
                 json_report['Report'][dev_name] = json_
 
-print(json.dumps(json_report))
+post_ = post_metrics.PostMetrics()
+r = post_.post(json_)
+print(r)
 

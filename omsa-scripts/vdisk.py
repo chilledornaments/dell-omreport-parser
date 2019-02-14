@@ -30,4 +30,6 @@ for e in vdisk_xml.iter('OMA'):
             json_report['Report'][device_name] = json_
             #json_report['Report'].append({device_name: vdisk_json})
 
-print(json.dumps(json_report))
+post_ = post_metrics.PostMetrics()
+r = post_.post(json_)
+print(r)

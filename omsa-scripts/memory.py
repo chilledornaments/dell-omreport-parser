@@ -33,7 +33,9 @@ for e in mem_xml.iter('OMA'):
         json_report['Report'][dev_location] = json_
         #json_report['Report'].append({dev_location: mem_json})
         
-print(json.dumps(json_report))
+post_ = post_metrics.PostMetrics()
+r = post_.post(json_)
+print(r)
 
 
 # Presumably, a failureMode of anything besides 0 is bad

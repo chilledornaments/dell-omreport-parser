@@ -36,4 +36,6 @@ for e in text_xml.iter('OMA'):
                 "Manufacturer": manufacturer, "Version": version, "Cores": cores, "Threads": thread_count}
                 json_report['Report'][proc_name] = json_
                 #json_report['Report'].append({proc_name: json_})
-print(json.dumps(json_report))
+post_ = post_metrics.PostMetrics()
+r = post_.post(json_)
+print(r)
