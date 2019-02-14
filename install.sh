@@ -10,7 +10,7 @@ fi
 
 install_cron () {
     RAND=$(shuf -i 0-59 -n 1)
-    echo "$RAND * * * * root /opt/dell-omreport-parser/metric_collector.sh >> /opt/dell-omreport-parser/cron.log 2>&1" > /etc/cron.d/omsa-metrics
+    echo "$RAND * * * * root /opt/dell-omreport-parser/metric_collector.sh >> /opt/dell-omreport-parser/logs/cron.log 2>&1" > /etc/cron.d/omsa-metrics
     echo "Installed cronjob to /etc/cron.d/omsa-metrics"
     echo ""
     echo "Install finished"
