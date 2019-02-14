@@ -30,7 +30,10 @@ for e in pdisk_xml.iter('OMA'):
                 neg_speed = d.find('NegotiatedSpeed').text
             except AttributeError:
                 neg_speed = "null"
-            capable_speed = d.find('CapableSpeed').text
+            try:
+                capable_speed = d.find('CapableSpeed').text
+            except AttributeError:
+                capable_speed = "null"
             product_id = d.find('ProductID').text
             # Presumably 4 is OK
             status = d.find('ObjStatus').text
