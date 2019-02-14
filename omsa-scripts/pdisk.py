@@ -36,5 +36,5 @@ for e in pdisk_xml.iter('OMA'):
             #json_report['Report'].append({oid: pdisk_json})
 
 post_ = post_metrics.PostMetrics()
-r = post_.post(json_)
+r = post_.post(json_report)
 print(r)

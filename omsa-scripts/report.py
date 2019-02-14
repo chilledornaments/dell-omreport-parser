@@ -66,5 +66,5 @@ Object types:
 23 = Chassis (?)
 """
 post_ = post_metrics.PostMetrics()
-r = post_.post(json_)
+r = post_.post(json_report)
 print(r)
