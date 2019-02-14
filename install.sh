@@ -39,9 +39,10 @@ install_packages () {
     for package in ${rhel_packages[@]}
     do
     yum -y install "${package}" > /dev/null
+    done
     easy_install-3.6 pip 
     pip3 install requests
-    done
+    
     elif [ "${PKG_MGR}" == "apt" ]
     then
     deb_packages=("I'm an RHCSA")
