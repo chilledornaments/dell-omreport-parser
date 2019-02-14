@@ -9,8 +9,7 @@ dell_strg_arg = "storage"
 dell_pdisk_arg = "pdisk"
 dell_controller_arg = "controller=0"
 
-#host = host
-host = "xenserver2"
+host = host
 
 json_report = {}
 json_report['Host'] = host
