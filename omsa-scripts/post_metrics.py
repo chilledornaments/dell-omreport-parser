@@ -6,10 +6,10 @@ class PostMetrics():
     def post(self, json_report):
         if verify_ssl:
 
-            r = requests.post(api_server, headers=headers, data=json.dumps(json_report))
+            r = requests.post(api_server, headers=self.headers, data=json.dumps(json_report))
             return r.status_code
         elif not verify_ssl:
-            r = requests.post(api_server, headers=headers, data=json.dumps(json_report), verify=False)
+            r = requests.post(api_server, headers=self.headers, data=json.dumps(json_report), verify=False)
             return r.status_code
         
         else:
