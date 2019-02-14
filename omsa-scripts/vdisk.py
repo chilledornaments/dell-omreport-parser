@@ -11,7 +11,7 @@ host = host
 
 json_report = {}
 json_report['Host'] = host
-json_report['Category'] = "VirtDisk"
+json_report['Category'] = "VirtDisks"
 json_report['Report'] = {}
 
 vdisk_out = subprocess.check_output([dell_tool, dell_strg_arg, dell_arg, '-fmt', 'xml']).decode('utf-8')
