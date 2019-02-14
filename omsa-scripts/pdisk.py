@@ -36,6 +36,8 @@ for e in pdisk_xml.iter('OMA'):
                 capable_speed = "null"
             product_id = d.find('ProductID').text
             # Presumably 4 is OK
+            # 3 is non-critical
+            # 2 is ok
             status = d.find('ObjStatus').text
             json_ = {"ProductID": product_id, "ObjectID": oid, "Serial": serial, "NumPartitions": num_partitions, "NegotiatedSpeed": neg_speed, "CapableSpeed": capable_speed, "Status": status}
             json_report['Report'][oid] = json_
