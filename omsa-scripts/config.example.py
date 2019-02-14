@@ -1,5 +1,5 @@
 host = "xenserver"
-api_server = "https://omsa-api.example.com"
+api_server = "https://omsa-api.example.com/api/report"
 # If API Server is running on a different port/proto, you can specifiy it here:
 # api_server = "http://omsa-api.example.com:5000"
 
