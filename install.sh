@@ -6,7 +6,7 @@ echo "Please run as root"
 exit 1
 fi
 
-get_package_manager
+
 
 install_cron () {
     RAND=$(shuf -i 0-59 -n 1)
@@ -81,3 +81,4 @@ get_package_manager () {
 }
 
 
+get_package_manager
