@@ -26,7 +26,10 @@ for e in pdisk_xml.iter('OMA'):
             oid = d.find('ObjID').text
             serial = d.find('DeviceSerialNumber').text
             num_partitions = d.find('NumOfPartition').text
-            neg_speed = d.find('NegotiatedSpeed').text
+            try:
+                neg_speed = d.find('NegotiatedSpeed').text
+            except AttributeError:
+                neg_speed = "null"
             capable_speed = d.find('CapableSpeed').text
             product_id = d.find('ProductID').text
             # Presumably 4 is OK

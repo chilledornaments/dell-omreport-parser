@@ -1,5 +1,9 @@
 # dell-omreport-parser
 
+## What is it?
+
+This tool uses the Dell `omreport` tool to output an XML, format it to a JSON, and send it to an API server to gather inventory and trigger alerts.
+
 ## How To
 
 - Clone repo in `/opt/`
