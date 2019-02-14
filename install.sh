@@ -40,6 +40,7 @@ install_packages () {
     do
     yum -y install "${package}" > /dev/null
     easy_install-3.6 pip install requests
+    done
     elif [ "${PKG_MGR}" == "apt" ]
     then
     deb_packages=("I'm an RHCSA")
@@ -47,6 +48,7 @@ install_packages () {
     do
     apt -y install "${package}" > /dev/null
     done
+    fi
     
 }
 
@@ -68,6 +70,7 @@ get_package_manager () {
     then
     PKG_MGR=yum
     elif $(which apt > /dev/null 2>&1)
+    then
     PKG_MGR=apt
     else
     echo "Unable to detect package manager. Exiting."
