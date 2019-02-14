@@ -44,5 +44,5 @@ for e in text_xml.iter('OMA'):
         json_report['Report'][name] = json_
 
 post_ = post_metrics.PostMetrics()
-r = post_.post(json_)
+r = post_.post(json_report)
 print(r)

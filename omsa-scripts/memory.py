@@ -34,7 +34,7 @@ for e in mem_xml.iter('OMA'):
         #json_report['Report'].append({dev_location: mem_json})
         
 post_ = post_metrics.PostMetrics()
-r = post_.post(json_)
+r = post_.post(json_report)
 print(r)
 
 
