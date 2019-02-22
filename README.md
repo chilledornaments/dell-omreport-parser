@@ -12,6 +12,7 @@ This has been tested with and written for OMSA Version 8.3.0
 
 The temperature and power supply scripts have issues collecting data for OMSA Version 9.2.0. Workaround incoming
 
+To find the version of OMSA running on your server (for Linux hosts at least), run `/opt/dell/srvadmin/sbin/omreport about`
 ## How To
 
 - Clone repo in `/opt/`
