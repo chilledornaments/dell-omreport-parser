@@ -4,6 +4,14 @@
 
 This tool uses the Dell `omreport` tool to output an XML, format it to a JSON, and send it to an API server to gather inventory and trigger alerts.
 
+Check the API section for info on the API/Web server.
+
+## Compatability 
+
+This has been tested with and written for OMSA Version 8.3.0
+
+The temperature and power supply scripts have issues collecting data for OMSA Version 9.2.0. Workaround incoming
+
 ## How To
 
 - Clone repo in `/opt/`
